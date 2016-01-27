@@ -1,0 +1,12 @@
+
+
+下载 flash_player_10_linux.tar.gz
+
+解压：tar -xzf flash_player_10_linux.tar.gz  会得到一个.so文件
+以非root用户操作：mkdir -p ~/.mozilla/plugins/
+cp libflashplayer.so  ~/.mozilla/plugins/
+
+需要root 权限：cp libflashplayer.so  /usr/lib/iceweasel/
+
+这样就可以了，重启下iceweasel 就可以播放flash 了。
+

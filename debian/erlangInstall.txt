@@ -1,0 +1,5 @@
+sudo apt-get install build-essential libncurses5-dev libssl-dev m4 unixodbc unixodbc-dev freeglut3-dev xsltproc fop tk8.5 libwxgtk3.0-0 libwxgtk3.0-dev
+
+./configure --prefix=/home/monkboy/opt/erlang18.2.1
+make
+make install

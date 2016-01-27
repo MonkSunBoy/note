@@ -1,0 +1,4 @@
+插件地址：
+https://github.com/amix/vimrc(current)
+https://github.com/humiaozuzu/dot-vimrc
+https://github.com/spf13/spf13-vim

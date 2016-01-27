@@ -1,0 +1,32 @@
+1、
+su -
+apt-get upgrade
+apt-get install sudo
+apt-get install vim
+vim /etc/sudoers
+monkboy ALL=(ALL) ALL
+
+sudo apt-get install fcitx fcitx-pinyin
+sudo apt-get install fcitx-cloudpinyin
+sudo apt-get install fcitx-googlepinyin
+sudo apt-get install fcitx-libpinyin
+sudo apt-get install fcitx-sunpinyin
+sudo apt-get install libgstreamer-plugins-base0.10-0
+sudo apt-get install libgstreamer0.10-0
+sudo apt-get install build-essential
+sudo apt-get install gdb
+sudo apt-get install libgl1-mesa-dev
+    sudo apt-get install libglu1-mesa-dev
+sudo apt-get install libglut-dev(sudo apt-get install freeglut3-dev)
+    sudo apt-get install git
+    sudo apt-get install libx11-dev
+    sudo apt-get install zsh
+
+字体：
+1、在linux中创建windows字体目录
+mkdir /usr/share/fonts/truetype/windows
+2、将windows安装目录下/windows/Fonts这个目录下的所有的文件拷贝到/usr/share/fonts/truetype/windows目录.
+3、拷完以后还没有完事,我们更新配置一下,建立字体缓存和配置文件
+sudo mkfontscale
+sudo mkfontdir
+sudo fc-cache -fv

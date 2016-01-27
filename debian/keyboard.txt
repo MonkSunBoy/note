@@ -1,0 +1,47 @@
+所以我尝试改了下
+
+remove Lock = Caps_Lock
+remove Control = Control_R
+keysym Control_R = Caps_Lock
+keysym Caps_Lock = Control_R
+add Lock = Caps_Lock
+add Control = Control_R
+
+这样，caps lock 和ctrl就都是ctrl的功能。执行下
+
+xmodmap ~/.xmodmap  2>/dev/null
+
+运行下xmodmap 可以看到和改之前没变化
+
+shift      Shift_L (0x32),  Shift_R (0x3e)
+lock      &nbsp; Caps_Lock(0x42)
+control    Control_L (0x25),  Control_R (0x69)
+mod1        Alt_L (0x40),  Alt_R (0x6c),  Meta_L (0xcd)
+mod2        Num_Lock (0x4d)
+mod3     
+mod4        Super_L (0x85),  Super_R (0x86),  Super_L (0xce),  Hyper_L (0xcf)
+mod5        ISO_Level3_Shift (0x5c),  Mode_switch (0xcb)
+
+可以每次开机都运行一下命令，也可以想上文那里一样写道.bashrc或者其他的配置文件
+
+我用的是openbox 桌面，它有一个autostart 文件，我写到了这里面
+
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+tint2&
+xmodmap ~/.xmodmap 2>/dev/null

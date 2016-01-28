@@ -1,0 +1,10 @@
+fcitx 输入法的困扰
+由于ibus对idea中文的支持并不友好，忍耐了好久决定更换成fcitx 看搜狗 ubuntu的输入发也发布新版本了， 
+于是乎决定更新之 搜过输入发的ｕｒｌ：http://pinyin.sogou.com/linux/ 安装方法比较简答不在。。。 
+搜狗安装完成后爽爆了。。。 唯独qtalk 不给面子， qtalk切换不了中文。 在run.sh 中添加了如下常量。。。
+ 然后爽爆了。。 
+
+export LC_CTYPE=zh_CN.UTF-8
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx

@@ -1,0 +1,139 @@
+irssi 命令
+来源： 蔡宇軒的日志
+
+第一次使用可以用下面的命令配置irssi
+
+    /network add -autosendcmd "/^msg nickserv identify passwd;wait 2000" OFTC
+
+ 
+
+    /server add -auto -network OFTC irc.oftc.net 6667
+
+ 
+
+    /channel add -auto #arch-cn OFTC
+
+这样就可以自动登录了，上面第一命令表明你已经向其服务器注册了帐号了！
+
+至于帐号如何注册, 首先连接服务器，用/connect server-name
+1. /nick <name>
+选择一个没有重名的用户。（重名会有提示）
+2. /msg nickserv register <password> <e-mail>
+通过email认证后：
+3. /msg nickserv identify <password>
+使用log:
+1.使用pgUP,pgDn键可以实现记录的翻页。
+2./goto 12:00, /goto end
+3./lastlog nickname 查看nickname所说的话！
+4./away暂时离开，/away查看离开时段的聊天记录。
+
+－－－－－－－－－－－－－
+【日常操作】
+(1) /nick <昵称> ，修改昵称
+(2) /join #<频道> ，加入一个频道
+(3) /wc，离开当前频道
+(4) /part <频道> <消息>，退出频道，不加频道名退出当前频道，后面可以跟退出原因。
+(5) /disconnect <服务器>，断开一个服务器
+(6) /quit 或者 /exit，退出 irssi，结束IRC会话。
+(7) /msg <昵称> <消息>，向某人发私消息（新开窗口）
+(8) /query <昵称> <消息>，向某人发私消息（新开窗口且转换到这个窗口）
+(9) /say <昵称> <消息>，向某人说话（不新开窗口）
+(10) /notice <昵称> <消息>，向指定人发出注意消息
+(11) /me <动作>，在当前聊天室窗口中做出动作。 如做出晕倒动作：/me 晕倒
+(12) /away <原因>，留下信息说明暂时离开，别人向你发出私聊时将会返回此消息，再重新输入 /away（不指定参数）则解除离开状态。
+(13) /ignore <昵称>，忽略某人的聊天内容
+(14) /set autolog on，自动保存聊天记录
+
+【窗口操作】
+(1) Alt+1~0，对应1~10的频道编号
+(2) Alt+q~p，对应11~20的频道编号
+(3) Ctrl+n/p，切换上/下一个频道
+(4) PageUP/PageDn，切换上/下页讯息
+(5) /window close，关闭当前窗口
+(6) /window close <数字>，关闭指定编号的窗口
+(7) /window list，窗口列表
+
+【查询信息】
+(1) /list，频道列表
+(2) /names [#聊天室]，列出当前服务器或指定聊天室下的所有人员名称（无法列出隐藏人员）
+(3) /who，查看频道的所有人
+(4) /whois [昵称]，查看某人的基本资料
+(5) /ison <别名1> <别名2> ...查询指定别名是否在线
+(6) /info，查询服务器信息
+(7) /admin，查询当前服务器上的Admin
+(8) /lusers，查询当前服务器上的统计信息
+(9) /motd，查询当前服务器今日的统计信息
+(10) /links，查询当前的服务器，解析当前的有几个服务器。
+
+【提示信息】
+[Act: 1,3,6,9,10]：这些数字提示各个频道上对话情况：[灰白色] 表示有人登录或登出，[白色] 代表有人在此channel上说话，[灰红色] 代表对话中提起你的名字或呼叫你。
+
+【转换编码】
+/recode add #<频道> <编码>，加入此频道编码格式
+/recode，查看加入的编码列表
+
+ 
+
+1登录：
+    /usr/local/bin/irssi -circ.freenode.net -p7000 -naisaer或者irssi--/connect irc.freenode.net port 7000。
+2修改昵称：
+    /nick apple
+3加入聊天频道：
+    /join #fedora，如频道需要密码，/join #fedora password
+4离开单个频道：
+    /wc
+5离开一个IRC SERVER
+    /disconnect irc.freenode.net
+6[Act:1,3,6,9,10]
+    这些数字提示各个频道上对话情况：灰白色表示有人登录或登出，白色代表在人在此channel上说话，灰红色代表对话中提起你的名字或呼叫你。
+7切换到相应的irc channel上查看：
+    Alt+1~0对应1~10的irc channel编号；
+    Alt+q~p对应11~20的irc channel编号；
+    Ctrl+n/p切换上/下一个irc channel;
+    PageUP/PageDn切换上/下页讯息。
+8转编码：
+    /recode add #fedora utf8;加入此频道编码格式，/recode查看加入的编码列表。
+9连接多个irc server:
+    /connect irc_server即可连接一个新的irc server,Alt+1切换到第一个特殊频道，再用Ctrl+x切换当前的irc_server。
+10查看频道的所有人：
+    /who
+11查看某人的基本资料：
+    /whois nickname
+12给某人发私消息
+    /msg nickname ......
+13给某人说话
+    /say nickname ......
+14自动保存irc log
+    /SET autolog ON
+15启动irssi后，自動連接IRC server和IRC channel，假设要自動用apple暱稱連接到Freenode的IRC server上的#fedora：
+    /network add -nick apple Freenode
+    /server add -auto -network Freenode irc.freenode.net 7000
+    /channel add -auto #fedora Freenode,需要key/password的IRC channel,改为：/channel add -auto #fedora Freenode password
+    如果需要自動對註冊的暱稱進行認證登入的話 (設口令為abcde)：
+    /network add -autosendcmd "/^msg nickserv ident abcde;wait 2000" Freenode
+
+
+=======================================================================
+
+1. 安装 irssi 的强大之处在于很多script，不过都是perl语言写的，所以还是安装irssi-script
+sudo aptitude install irssi irssi-scripts
+2. irssi自动化配置
+只配置了去ubuntu-cn，所以就把irssi配置成运行后自动登陆服务器、自动加入频道。
+/server add -auto -network freenode irc.freenode.net 6667
+/network add -nick <你在自己的名子> freenode
+/network add -autosendcmd "/^msg nickserv identify <你自己的密码>;wait 2000" freenode
+/channel add -auto #ubuntu-cn freenode
+3. irssi命令
+打开个终端输入irssi就可以进入她的字符界面了。
+登陆IRC服务器
+/connect <服务器地址> <端口>
+或直接在终瑞下输入
+irssi -c <服务器地址> -p <端口>
+获得irssi命令帮助
+
+/help
+/help connect #获得connect命令的帮助
+窗口操作
+Alt+1..0 #切换窗口
+Ctrl+p,n #上一窗口，下一窗口
+/

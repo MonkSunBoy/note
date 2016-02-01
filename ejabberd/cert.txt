@@ -1,0 +1,31 @@
+/home/monkboy/opt/ejabberd1601/etc/ejabberd >openssl req -new -x509 -newkey rsa:1024 -days 3650 -keyout privkey.pem -out server.pem
+Generating a 1024 bit RSA private key
+.........................++++++
+..................++++++
+writing new private key to 'privkey.pem'
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:CH
+State or Province Name (full name) [Some-State]:BJ
+Locality Name (eg, city) []:BJ
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:SELF
+Organizational Unit Name (eg, section) []:SELF
+Common Name (e.g. server FQDN or YOUR name) []:localhost
+Email Address []:
+➜ /home/monkboy/opt/ejabberd1601/etc/ejabberd >openssl rsa -in privkey.pem -out privkey.pem
+Enter pass phrase for privkey.pem:
+writing RSA key
+➜ /home/monkboy/opt/ejabberd1601/etc/ejabberd >cat server.pem privkey.pem > /tmp/server.pem
+➜ /home/monkboy/opt/ejabberd1601/etc/ejabberd >mv /tmp/server.pem .
+[sudo] password for monkboy: 
+➜ /home/monkboy/opt/ejabberd1601/etc/ejabberd >rm -rf privkey.pem 
+➜ /home/monkboy/opt/ejabberd1601/etc/ejabberd >
+

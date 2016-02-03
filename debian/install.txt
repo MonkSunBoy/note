@@ -16,11 +16,12 @@ sudo apt-get install libgstreamer0.10-0
 sudo apt-get install build-essential
 sudo apt-get install gdb
 sudo apt-get install libgl1-mesa-dev
-    sudo apt-get install libglu1-mesa-dev
+sudo apt-get install libglu1-mesa-dev
 sudo apt-get install libglut-dev(sudo apt-get install freeglut3-dev)
-    sudo apt-get install git
-    sudo apt-get install libx11-dev
-    sudo apt-get install zsh
+sudo apt-get install git
+sudo apt-get install libx11-dev
+sudo apt-get install zsh
+sudo apt install aircrack-ng
 
 字体：
 1、在linux中创建windows字体目录

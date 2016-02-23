@@ -1,4 +1,10 @@
-irssi 命令
+#irssi 命令
+
+## 网址
+https://wiki.archlinux.org/index.php/Irssi
+
+
+
 来源： 蔡宇軒的日志
 
 第一次使用可以用下面的命令配置irssi
@@ -26,6 +32,11 @@ irssi 命令
 2./goto 12:00, /goto end
 3./lastlog nickname 查看nickname所说的话！
 4./away暂时离开，/away查看离开时段的聊天记录。
+5. /ignore * joins
+6. /ignore * parts
+7. /ignore * quits
+
+
 
 －－－－－－－－－－－－－
 【日常操作】

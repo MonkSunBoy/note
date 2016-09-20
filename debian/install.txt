@@ -31,3 +31,6 @@ mkdir /usr/share/fonts/truetype/windows
 sudo mkfontscale
 sudo mkfontdir
 sudo fc-cache -fv
+
+emoji字体
+sudo apt-get install ttf-ancient-fonts

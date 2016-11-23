@@ -1,0 +1,30 @@
+2016-11-22 10:07:09.943 [info] <0.515.0>@ejabberd_listener:accept:333 (#Port<0.13918>) Accepted connection 127.0.0.1:54636 -> 127.0.0.1:5222                                                                                                                                   
+2016-11-22 10:07:09.944 [debug] <0.530.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<?xml version='1.0' ?><stream:stream to='localhost' xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0'>">>
+2016-11-22 10:07:09.944 [debug] <0.531.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<?xml version='1.0'?><stream:stream id='15015297228202546263' version='1.0' xml:lang='en' xmlns:stream='http://etherx.jabber.org/streams' from='localhost' xmlns='jabber:client'>">>
+2016-11-22 10:07:09.944 [debug] <0.531.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<stream:features><c ver='xNMkREmiLqCwmabQm4h109KLdZk=' node='http://www.process-one.net/en/ejabberd/' hash='sha-1' xmlns='http://jabber.org/protocol/caps'/><register xmlns='http://jabber.org/features/iq-register'/><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism><mechanism>DIGEST-MD5</mechanism><mechanism>X-OAUTH2</mechanism><mechanism>SCRAM-SHA-1</mechanism></mechanisms></stream:features>">>
+2016-11-22 10:07:09.945 [debug] <0.530.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='get' id='purpleccadf57a'><query xmlns='jabber:iq:register'/></iq>">>
+2016-11-22 10:07:09.945 [debug] <0.530.0>@shaper:update:120 State: {maxrate,1000,0.0,1479780429944540}, Size=75
+M=37.5, I=1.007
+2016-11-22 10:07:09.945 [debug] <0.531.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq from='localhost' type='result' id='purpleccadf57a'><query xmlns='jabber:iq:register'><username/><password/><instructions>Choose a username and password to register with this server</instructions></query></iq>">>
+2016-11-22 10:07:19.882 [debug] <0.530.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='set' id='purpleccadf57b' to='localhost'><query xmlns='jabber:iq:register'><username>monkboy</username><password>fan911711</password></query></iq>">>
+2016-11-22 10:07:19.882 [debug] <0.530.0>@shaper:update:120 State: {maxrate,1000,985.3899516501997,1479780429982596}, Size=155
+M=152.76805138298974, I=9900.234
+2016-11-22 10:07:19.884 [debug] <0.531.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {message,<<>>,normal,<<>>,undefined,undefined,[{text,<<>>,<<"Welcome!">>}],[{text,<<>>,<<"Hi.\nWelcome to this XMPP server.">>}],undefined,[],#{}}
+2016-11-22 10:07:19.884 [debug] <0.531.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {message,<<>>,normal,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:07:19.884 [debug] <0.531.0>@ejabberd_sm:do_route:504 processing message to bare JID:
+{message,<<>>,normal,<<>>,undefined,undefined,
+         [{text,<<>>,<<"Welcome!">>}],
+         [{text,<<>>,<<"Hi.\nWelcome to this XMPP server.">>}],
+         undefined,[],#{}}
+2016-11-22 10:07:19.884 [debug] <0.531.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq from='localhost' type='result' id='purpleccadf57b'/>">>
+2016-11-22 10:07:19.888 [debug] <0.530.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"</stream:stream>">>
+2016-11-22 10:07:19.888 [debug] <0.531.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"</stream:stream>">>
+2016-11-22 10:07:19.888 [debug] <0.530.0>@shaper:update:120 State: {maxrate,1000,500.5229882311359,1479780439882938}, Size=16
+M=10.670386991212046, I=5.756
+

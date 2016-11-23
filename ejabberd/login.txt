@@ -1,0 +1,1276 @@
+2016-11-22 10:10:02.965 [info] <0.515.0>@ejabberd_listener:accept:333 (#Port<0.13927>) Accepted connection 127.0.0.1:54714 -> 127.0.0.1:5222
+2016-11-22 10:10:02.966 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<?xml version='1.0' ?><stream:stream to='localhost' xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0'>">>
+2016-11-22 10:10:02.966 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<?xml version='1.0'?><stream:stream id='1969158959000728701' version='1.0' xml:lang='en' xmlns:stream='http://etherx.jabber.org/streams' from='localhost' xmlns='jabber:client'>">>
+2016-11-22 10:10:02.966 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<stream:features><c ver='xNMkREmiLqCwmabQm4h109KLdZk=' node='http://www.process-one.net/en/ejabberd/' hash='sha-1' xmlns='http://jabber.org/protocol/caps'/><register xmlns='http://jabber.org/features/iq-register'/><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism><mechanism>DIGEST-MD5</mechanism><mechanism>X-OAUTH2</mechanism><mechanism>SCRAM-SHA-1</mechanism></mechanisms></stream:features>">>
+2016-11-22 10:10:02.968 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<auth xmlns='urn:ietf:params:xml:ns:xmpp-sasl' mechanism='DIGEST-MD5' xmlns:ga='http://www.google.com/talk/protocol/auth' ga:client-uses-full-bind-result='true'/>">>
+2016-11-22 10:10:02.968 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,0.0,1479780602966634}, Size=162
+M=81.0, I=1.643
+2016-11-22 10:10:02.969 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<challenge xmlns='urn:ietf:params:xml:ns:xmpp-sasl'>bm9uY2U9IjE5OTcwNDM0NzIyNDIzMjg4ODIiLHFvcD0iYXV0aCIsY2hhcnNldD11dGYtOCxhbGdvcml0aG09bWQ1LXNlc3M=</challenge>">>
+2016-11-22 10:10:03.048 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<response xmlns='urn:ietf:params:xml:ns:xmpp-sasl'>dXNlcm5hbWU9Im1vbmtib3kiLHJlYWxtPSJsb2NhbGhvc3QiLG5vbmNlPSIxOTk3MDQzNDcyMjQyMzI4ODgyIixjbm9uY2U9IlpkelAyRS8vV0ozQnZFbnZjZzJOOCtpbXRucEtEZlN2R3lBcUg2WHpSS2s9IixuYz0wMDAwMDAwMSxxb3A9YXV0aCxtYXhidWY9NDA5NixkaWdlc3QtdXJpPSJ4bXBwL2xvY2FsaG9zdCIscmVzcG9uc2U9MTkzYWZmNTgzMTM0MjZjNzViMWUwYTkxZDM4ODM4MjYsY2hhcnNldD11dGYtOA==</response>">>
+2016-11-22 10:10:03.048 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,990.849929050252,1479780603048382}, Size=378
+M=374.5726338246703, I=0.332
+2016-11-22 10:10:03.049 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<challenge xmlns='urn:ietf:params:xml:ns:xmpp-sasl'>cnNwYXV0aD1kZWU2MTNmYWM1ZmQxMmRhMGUzNTYzOTFmMDUxMTVlMQ==</challenge>">>
+2016-11-22 10:10:03.424 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<response xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>">>
+2016-11-22 10:10:03.424 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,998.6104749123126,1479780603423989}, Size=52
+M=51.927844956683145, I=0.694
+2016-11-22 10:10:03.424 [info] <0.544.0>@ejabberd_c2s:wait_for_sasl_response:807 ({socket_state,gen_tcp,#Port<0.13927>,<0.543.0>}) Accepted authentication for monkboy by ejabberd_auth_mnesia from 127.0.0.1
+2016-11-22 10:10:03.424 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>">>
+2016-11-22 10:10:03.477 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<stream:stream to='localhost' xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0'>">>
+2016-11-22 10:10:03.477 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,992.1682025955797,1479780603476742}, Size=114
+M=113.11411318197808, I=0.943
+2016-11-22 10:10:03.477 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<?xml version='1.0'?><stream:stream id='11657882681181477862' version='1.0' xml:lang='en' xmlns:stream='http://etherx.jabber.org/streams' from='localhost' xmlns='jabber:client'>">>
+2016-11-22 10:10:03.478 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<stream:features><c ver='xNMkREmiLqCwmabQm4h109KLdZk=' node='http://www.process-one.net/en/ejabberd/' hash='sha-1' xmlns='http://jabber.org/protocol/caps'/><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'><optional/></session><sm xmlns='urn:xmpp:sm:2'/><sm xmlns='urn:xmpp:sm:3'/><csi xmlns='urn:xmpp:csi:0'/></stream:features>">>
+2016-11-22 10:10:03.591 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='set' id='purple6153185c'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/></iq>">>
+2016-11-22 10:10:03.591 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,0.0,1479780603478146}, Size=88
+M=44.0, I=113.538
+2016-11-22 10:10:03.591 [info] <0.544.0>@ejabberd_c2s:open_session:1022 ({socket_state,gen_tcp,#Port<0.13927>,<0.543.0>}) Opened session for monkboy@localhost/17904378891235861903362
+2016-11-22 10:10:03.592 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq type='result' id='purple6153185c'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>monkboy@localhost/17904378891235861903362</jid></bind></iq>">>
+2016-11-22 10:10:03.592 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='set' id='purple6153185d'><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/></iq>">>
+2016-11-22 10:10:03.592 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,0.0,1479780603592239}, Size=94
+M=47.0, I=0.361
+2016-11-22 10:10:03.592 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq type='result' id='purple6153185d'/>">>
+2016-11-22 10:10:03.640 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='get' id='purple6153185e' to='localhost'><query xmlns='http://jabber.org/protocol/disco#items'/></iq><iq type='get' id='purple6153185f' to='localhost'><query xmlns='http://jabber.org/protocol/disco#info'/></iq>">>
+2016-11-22 10:10:03.640 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,991.2265901805298,1479780603639655}, Size=219
+M=217.09533366783742, I=1.026
+2016-11-22 10:10:03.640 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple6153185e">>,get,<<>>,undefined,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#items">>}],[]}],#{}}
+2016-11-22 10:10:03.641 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple6153185e">>,get,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:03.641 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple6153185f">>,get,<<>>,undefined,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>}],[]}],#{}}
+2016-11-22 10:10:03.641 [debug] <0.429.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple6153185e">>,result,<<>>,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{disco_items,<<>>,[{disco_item,{jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,<<"conference.localhost">>,<<>>},<<>>,<<>>},{disco_item,{jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,<<"irc.localhost">>,<<>>},<<>>,<<>>},{disco_item,{jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,<<"pubsub.localhost">>,<<>>},<<>>,<<>>}],undefined}],#{}}
+2016-11-22 10:10:03.641 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple6153185f">>,get,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:03.641 [debug] <0.429.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple6153185e">>,result,<<>>,{jid,<<>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.642 [debug] <0.429.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple6153185e">>,result,<<>>,
+    {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_items{
+         node = <<>>,
+         items = 
+             [#disco_item{
+                  jid = 
+                      {jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,
+                          <<"conference.localhost">>,<<>>},
+                  name = <<>>,node = <<>>},
+              #disco_item{
+                  jid = 
+                      {jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,
+                          <<"irc.localhost">>,<<>>},
+                  name = <<>>,node = <<>>},
+              #disco_item{
+                  jid = 
+                      {jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,
+                          <<"pubsub.localhost">>,<<>>},
+                  name = <<>>,node = <<>>}],
+         rsm = undefined}],
+    #{}}
+2016-11-22 10:10:03.642 [debug] <0.430.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple6153185f">>,result,<<>>,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{disco_info,<<>>,[{identity,<<"pubsub">>,<<"pep">>,<<>>,<<>>},{identity,<<"server">>,<<"im">>,<<>>,<<"ejabberd">>}],[<<"http://jabber.org/protocol/commands">>,<<"http://jabber.org/protocol/disco#info">>,<<"http://jabber.org/protocol/disco#items">>,<<"http://jabber.org/protocol/pubsub">>,<<"http://jabber.org/protocol/stats">>,<<"iq">>,<<"jabber:iq:last">>,<<"jabber:iq:privacy">>,<<"jabber:iq:register">>,<<"jabber:iq:version">>,<<"presence">>,<<"urn:xmpp:blocking">>,<<"urn:xmpp:carbons:2">>,<<"urn:xmpp:ping">>,<<"urn:xmpp:time">>,<<"vcard-temp">>,<<"msgoffline">>,<<"http://jabber.org/protocol/offline">>,<<"http://jabber.org/protocol/pubsub#access-authorize">>,<<"http://jabber.org/protocol/pubsub#access-open">>,<<"http://jabber.org/protocol/pubsub#access-presence">>,<<"http://jabber.org/protocol/pubsub#access-whitelist">>,<<"http://jabber.org/protocol/pubsub#auto-create">>,<<"http://jabber.org/protocol/pubsub#auto-subscribe">>,<<"http://jabber.org/protocol/pubsub#collections">>,<<"http://jabber.org/protocol/pubsub#config-node">>,<<"http://jabber.org/protocol/pubsub#create-and-configure">>,<<"http://jabber.org/protocol/pubsub#create-nodes">>,<<"http://jabber.org/protocol/pubsub#delete-items">>,<<"http://jabber.org/protocol/pubsub#delete-nodes">>,<<"http://jabber.org/protocol/pubsub#filtered-notifications">>,<<"http://jabber.org/protocol/pubsub#get-pending">>,<<"http://jabber.org/protocol/pubsub#instant-nodes">>,<<"http://jabber.org/protocol/pubsub#item-ids">>,<<"http://jabber.org/protocol/pubsub#last-published">>,<<"http://jabber.org/protocol/pubsub#manage-subscriptions">>,<<"http://jabber.org/protocol/pubsub#member-affiliation">>,<<"http://jabber.org/protocol/pubsub#modify-affiliations">>,<<"http://jabber.org/protocol/pubsub#outcast-affiliation">>,<<"http://jabber.org/protocol/pubsub#persistent-items">>,<<"http://jabber.org/protocol/pubsub#presence-notifications">>,<<"http://jabber.org/protocol/pubsub#presence-subscribe">>,<<"http://jabber.org/protocol/pubsub#publish">>,<<"http://jabber.org/protocol/pubsub#publish-only-affiliation">>,<<"http://jabber.org/protocol/pubsub#publisher-affiliation">>,<<"http://jabber.org/protocol/pubsub#purge-nodes">>,<<"http://jabber.org/protocol/pubsub#retract-items">>,<<"http://jabber.org/protocol/pubsub#retrieve-affiliations">>,<<"http://jabber.org/protocol/pubsub#retrieve-default">>,<<"http://jabber.org/protocol/pubsub#retrieve-items">>,<<"http://jabber.org/protocol/pubsub#retrieve-subscriptions">>,<<"http://jabber.org/protocol/pubsub#shim">>,<<"http://jabber.org/protocol/pubsub#subscribe">>,<<"http://jabber.org/protocol/pubsub#subscription-notifications">>,<<"http://jabber.org/protocol/commands">>],[{xdata,result,[],undefined,undefined,[],[{xdata_field,<<>>,hidden,<<"FORM_TYPE">>,false,<<>>,[<<"http://jabber.org/network/serverinfo">>],[],[]}]}]}],#{}}
+2016-11-22 10:10:03.642 [debug] <0.430.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple6153185f">>,result,<<>>,{jid,<<>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.642 [debug] <0.429.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple6153185e">>,result,<<>>,
+    {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_items{
+         node = <<>>,
+         items = 
+             [#disco_item{
+                  jid = 
+                      {jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,
+                          <<"conference.localhost">>,<<>>},
+                  name = <<>>,node = <<>>},
+              #disco_item{
+                  jid = 
+                      {jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,
+                          <<"irc.localhost">>,<<>>},
+                  name = <<>>,node = <<>>},
+              #disco_item{
+                  jid = 
+                      {jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,
+                          <<"pubsub.localhost">>,<<>>},
+                  name = <<>>,node = <<>>}],
+         rsm = undefined}],
+    #{}}
+2016-11-22 10:10:03.642 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='localhost' type='result' id='purple6153185e'><query xmlns='http://jabber.org/protocol/disco#items'><item jid='conference.localhost'/><item jid='irc.localhost'/><item jid='pubsub.localhost'/></query></iq>">>
+2016-11-22 10:10:03.643 [debug] <0.430.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple6153185f">>,result,<<>>,
+    {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_info{
+         node = <<>>,
+         identities = 
+             [#identity{
+                  category = <<"pubsub">>,type = <<"pep">>,lang = <<>>,
+                  name = <<>>},
+              #identity{
+                  category = <<"server">>,type = <<"im">>,lang = <<>>,
+                  name = <<"ejabberd">>}],
+         features = 
+             [<<"http://jabber.org/protocol/commands">>,
+              <<"http://jabber.org/protocol/disco#info">>,
+              <<"http://jabber.org/protocol/disco#items">>,
+              <<"http://jabber.org/protocol/pubsub">>,
+              <<"http://jabber.org/protocol/stats">>,<<"iq">>,
+              <<"jabber:iq:last">>,<<"jabber:iq:privacy">>,
+              <<"jabber:iq:register">>,<<"jabber:iq:version">>,<<"presence">>,
+              <<"urn:xmpp:blocking">>,<<"urn:xmpp:carbons:2">>,
+              <<"urn:xmpp:ping">>,<<"urn:xmpp:time">>,<<"vcard-temp">>,
+              <<"msgoffline">>,<<"http://jabber.org/protocol/offline">>,
+              <<"http://jabber.org/protocol/pubsub#access-authorize">>,
+              <<"http://jabber.org/protocol/pubsub#access-open">>,
+              <<"http://jabber.org/protocol/pubsub#access-presence">>,
+              <<"http://jabber.org/protocol/pubsub#access-whitelist">>,
+              <<"http://jabber.org/protocol/pubsub#auto-create">>,
+              <<"http://jabber.org/protocol/pubsub#auto-subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#collections">>,
+              <<"http://jabber.org/protocol/pubsub#config-node">>,
+              <<"http://jabber.org/protocol/pubsub#create-and-configure">>,
+              <<"http://jabber.org/protocol/pubsub#create-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#delete-items">>,
+              <<"http://jabber.org/protocol/pubsub#delete-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#filtered-notifications">>,
+              <<"http://jabber.org/protocol/pubsub#get-pending">>,
+              <<"http://jabber.org/protocol/pubsub#instant-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#item-ids">>,
+              <<"http://jabber.org/protocol/pubsub#last-published">>,
+              <<"http://jabber.org/protocol/pubsub#manage-subscriptions">>,
+              <<"http://jabber.org/protocol/pubsub#member-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#modify-affiliations">>,
+              <<"http://jabber.org/protocol/pubsub#outcast-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#persistent-items">>,
+              <<"http://jabber.org/protocol/pubsub#presence-notifications">>,
+              <<"http://jabber.org/protocol/pubsub#presence-subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#publish">>,
+              <<"http://jabber.org/protocol/pubsub#publish-only-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#publisher-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#purge-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#retract-items">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-affiliations">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-default">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-items">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-subscriptions">>,
+              <<"http://jabber.org/protocol/pubsub#shim">>,
+              <<"http://jabber.org/protocol/pubsub#subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#subscription-notifications">>,
+              <<"http://jabber.org/protocol/commands">>],
+         xdata = 
+             [#xdata{
+                  type = result,instructions = [],title = undefined,
+                  reported = undefined,items = [],
+             ...
+2016-11-22 10:10:03.644 [debug] <0.430.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple6153185f">>,result,<<>>,
+    {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_info{
+         node = <<>>,
+         identities = 
+             [#identity{
+                  category = <<"pubsub">>,type = <<"pep">>,lang = <<>>,
+                  name = <<>>},
+              #identity{
+                  category = <<"server">>,type = <<"im">>,lang = <<>>,
+                  name = <<"ejabberd">>}],
+         features = 
+             [<<"http://jabber.org/protocol/commands">>,
+              <<"http://jabber.org/protocol/disco#info">>,
+              <<"http://jabber.org/protocol/disco#items">>,
+              <<"http://jabber.org/protocol/pubsub">>,
+              <<"http://jabber.org/protocol/stats">>,<<"iq">>,
+              <<"jabber:iq:last">>,<<"jabber:iq:privacy">>,
+              <<"jabber:iq:register">>,<<"jabber:iq:version">>,<<"presence">>,
+              <<"urn:xmpp:blocking">>,<<"urn:xmpp:carbons:2">>,
+              <<"urn:xmpp:ping">>,<<"urn:xmpp:time">>,<<"vcard-temp">>,
+              <<"msgoffline">>,<<"http://jabber.org/protocol/offline">>,
+              <<"http://jabber.org/protocol/pubsub#access-authorize">>,
+              <<"http://jabber.org/protocol/pubsub#access-open">>,
+              <<"http://jabber.org/protocol/pubsub#access-presence">>,
+              <<"http://jabber.org/protocol/pubsub#access-whitelist">>,
+              <<"http://jabber.org/protocol/pubsub#auto-create">>,
+              <<"http://jabber.org/protocol/pubsub#auto-subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#collections">>,
+              <<"http://jabber.org/protocol/pubsub#config-node">>,
+              <<"http://jabber.org/protocol/pubsub#create-and-configure">>,
+              <<"http://jabber.org/protocol/pubsub#create-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#delete-items">>,
+              <<"http://jabber.org/protocol/pubsub#delete-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#filtered-notifications">>,
+              <<"http://jabber.org/protocol/pubsub#get-pending">>,
+              <<"http://jabber.org/protocol/pubsub#instant-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#item-ids">>,
+              <<"http://jabber.org/protocol/pubsub#last-published">>,
+              <<"http://jabber.org/protocol/pubsub#manage-subscriptions">>,
+              <<"http://jabber.org/protocol/pubsub#member-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#modify-affiliations">>,
+              <<"http://jabber.org/protocol/pubsub#outcast-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#persistent-items">>,
+              <<"http://jabber.org/protocol/pubsub#presence-notifications">>,
+              <<"http://jabber.org/protocol/pubsub#presence-subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#publish">>,
+              <<"http://jabber.org/protocol/pubsub#publish-only-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#publisher-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#purge-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#retract-items">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-affiliations">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-default">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-items">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-subscriptions">>,
+              <<"http://jabber.org/protocol/pubsub#shim">>,
+              <<"http://jabber.org/protocol/pubsub#subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#subscription-notifications">>,
+              <<"http://jabber.org/protocol/commands">>],
+         xdata = 
+             [#xdata{
+                  type = result,instructions = [],title = undefined,
+                  reported = undefined,items = [],
+                  fields...
+2016-11-22 10:10:03.645 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='localhost' type='result' id='purple6153185f'><query xmlns='http://jabber.org/protocol/disco#info'><identity type='pep' category='pubsub'/><identity name='ejabberd' type='im' category='server'/><feature var='http://jabber.org/protocol/commands'/><feature var='http://jabber.org/protocol/disco#info'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/pubsub'/><feature var='http://jabber.org/protocol/stats'/><feature var='iq'/><feature var='jabber:iq:last'/><feature var='jabber:iq:privacy'/><feature var='jabber:iq:register'/><feature var='jabber:iq:version'/><feature var='presence'/><feature var='urn:xmpp:blocking'/><feature var='urn:xmpp:carbons:2'/><feature var='urn:xmpp:ping'/><feature var='urn:xmpp:time'/><feature var='vcard-temp'/><feature var='msgoffline'/><feature var='http://jabber.org/protocol/offline'/><feature var='http://jabber.org/protocol/pubsub#access-authorize'/><feature var='http://jabber.org/protocol/pubsub#access-open'/><feature var='http://jabber.org/protocol/pubsub#access-presence'/><feature var='http://jabber.org/protocol/pubsub#access-whitelist'/><feature var='http://jabber.org/protocol/pubsub#auto-create'/><feature var='http://jabber.org/protocol/pubsub#auto-subscribe'/><feature var='http://jabber.org/protocol/pubsub#collections'/><feature var='http://jabber.org/protocol/pubsub#config-node'/><feature var='http://jabber.org/protocol/pubsub#create-and-configure'/><feature var='http://jabber.org/protocol/pubsub#create-nodes'/><feature var='http://jabber.org/protocol/pubsub#delete-items'/><feature var='http://jabber.org/protocol/pubsub#delete-nodes'/><feature var='http://jabber.org/protocol/pubsub#filtered-notifications'/><feature var='http://jabber.org/protocol/pubsub#get-pending'/><feature var='http://jabber.org/protocol/pubsub#instant-nodes'/><feature var='http://jabber.org/protocol/pubsub#item-ids'/><feature var='http://jabber.org/protocol/pubsub#last-published'/><feature var='http://jabber.org/protocol/pubsub#manage-subscriptions'/><feature var='http://jabber.org/protocol/pubsub#member-affiliation'/><feature var='http://jabber.org/protocol/pubsub#modify-affiliations'/><feature var='http://jabber.org/protocol/pubsub#outcast-affiliation'/><feature var='http://jabber.org/protocol/pubsub#persistent-items'/><feature var='http://jabber.org/protocol/pubsub#presence-notifications'/><feature var='http://jabber.org/protocol/pubsub#presence-subscribe'/><feature var='http://jabber.org/protocol/pubsub#publish'/><feature var='http://jabber.org/protocol/pubsub#publish-only-affiliation'/><feature var='http://jabber.org/protocol/pubsub#publisher-affiliation'/><feature var='http://jabber.org/protocol/pubsub#purge-nodes'/><feature var='http://jabber.org/protocol/pubsub#retract-items'/><feature var='http://jabber.org/protocol/pubsub#retrieve-affiliations'/><feature var='http://jabber.org/protocol/pubsub#retrieve-default'/><feature var='http://jabber.org/protocol/pubsub#retrieve-items'/><feature var='http://jabber.org/protocol/pubsub#retrieve-subscriptions'/><feature var='http://jabber.org/protocol/pubsub#shim'/><feature var='http://jabber.org/protocol/pubsub#subscribe'/><feature var='http://jabber.org/protocol/pubsub#subscription-notifications'/><feature var='http://jabber.org/protocol/commands'/><x type='result' xmlns='jabber:x:data'><field var='FORM_TYPE' type='hidden'><value>http://jabber.org/network/serverinfo</value></field></x></query></iq>">>
+2016-11-22 10:10:03.858 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='get' id='purple61531860' to='conference.localhost'><query xmlns='http://jabber.org/protocol/disco#info'/></iq><iq type='get' id='purple61531861' to='irc.localhost'><query xmlns='http://jabber.org/protocol/disco#info'/></iq><iq type='get' id='purple61531862' to='pubsub.localhost'><query xmlns='http://jabber.org/protocol/disco#info'/></iq><iq type='get' id='purple61531863'><vCard xmlns='vcard-temp'/></iq><iq type='get' id='purple61531864'><query xmlns='jabber:iq:roster'/></iq><iq type='get' id='purple61531865' to='localhost'><query xmlns='http://jabber.org/protocol/disco#items' node='http://jabber.org/protocol/commands'/></iq><iq type='get' id='purple61531866'><blocklist xmlns='urn:xmpp:blocking'/></iq><iq type='get' id='purple61531867' to='proxy.eu.jabber.org'><query xmlns='http://jabber.org/protocol/bytestreams'/></iq>">>
+2016-11-22 10:10:03.858 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,997.699589739263,1479780603857745}, Size=840
+M=838.0720903640891, I=1.116
+2016-11-22 10:10:03.858 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,<<"conference.localhost">>,<<>>}
+	packet {iq,<<"purple61531860">>,get,<<>>,undefined,{jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,<<"conference.localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>}],[]}],#{}}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,<<"irc.localhost">>,<<>>}
+	packet {iq,<<"purple61531861">>,get,<<>>,undefined,{jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,<<"irc.localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>}],[]}],#{}}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,<<"pubsub.localhost">>,<<>>}
+	packet {iq,<<"purple61531862">>,get,<<>>,undefined,{jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,<<"pubsub.localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>}],[]}],#{}}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple61531863">>,get,<<>>,undefined,undefined,[{xmlel,<<"vCard">>,[{<<"xmlns">>,<<"vcard-temp">>}],[]}],#{}}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple61531863">>,get,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_sm:do_route:514 processing IQ to bare JID:
+{iq,<<"purple61531863">>,get,<<>>,undefined,undefined,
+    [{xmlel,<<"vCard">>,[{<<"xmlns">>,<<"vcard-temp">>}],[]}],
+    #{}}
+2016-11-22 10:10:03.859 [debug] <0.421.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,<<"conference.localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531860">>,result,<<>>,{jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,<<"conference.localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{disco_info,<<>>,[{identity,<<"conference">>,<<"text">>,<<>>,<<"Chatrooms">>}],[<<"http://jabber.org/protocol/disco#info">>,<<"http://jabber.org/protocol/disco#items">>,<<"jabber:iq:register">>,<<"http://jabber.org/protocol/muc">>,<<"http://jabber.org/protocol/rsm">>,<<"vcard-temp">>,<<"urn:xmpp:mucsub:0">>,<<"http://jabber.org/protocol/muc#unique">>],[{xdata,result,[],undefined,undefined,[],[{xdata_field,<<>>,hidden,<<"FORM_TYPE">>,false,<<>>,[<<"http://jabber.org/network/serverinfo">>],[],[]}]}]}],#{}}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple61531864">>,get,<<>>,undefined,undefined,[{xmlel,<<"query">>,[{<<"xmlns">>,<<"jabber:iq:roster">>}],[]}],#{}}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple61531864">>,get,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:10:03.859 [debug] <0.421.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,<<"conference.localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531860">>,result,<<>>,{jid,<<>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_sm:do_route:514 processing IQ to bare JID:
+{iq,<<"purple61531864">>,get,<<>>,undefined,undefined,
+    [{xmlel,<<"query">>,[{<<"xmlns">>,<<"jabber:iq:roster">>}],[]}],
+    #{}}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple61531865">>,get,<<>>,undefined,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#items">>},{<<"node">>,<<"http://jabber.org/protocol/commands">>}],[]}],#{}}
+2016-11-22 10:10:03.859 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple61531865">>,get,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:03.859 [debug] <0.504.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,<<"irc.localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531861">>,result,<<>>,{jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,<<"irc.localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{disco_info,<<>>,[{identity,<<"conference">>,<<"irc">>,<<>>,<<"IRC Transport">>}],[<<"http://jabber.org/protocol/disco#info">>,<<"http://jabber.org/protocol/disco#items">>,<<"http://jabber.org/protocol/muc">>,<<"jabber:iq:register">>,<<"vcard-temp">>,<<"http://jabber.org/protocol/commands">>],[{xdata,result,[],undefined,undefined,[],[{xdata_field,<<>>,hidden,<<"FORM_TYPE">>,false,<<>>,[<<"http://jabber.org/network/serverinfo">>],[],[]}]}]}],#{}}
+2016-11-22 10:10:03.860 [debug] <0.504.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,<<"irc.localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531861">>,result,<<>>,{jid,<<>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.860 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531866">>,result,<<>>,{jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{block_list,[]}],#{}}
+2016-11-22 10:10:03.860 [debug] <0.429.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531865">>,result,<<>>,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{disco_items,<<"http://jabber.org/protocol/commands">>,[{disco_item,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},<<"Ping">>,<<"ping">>}],undefined}],#{}}
+2016-11-22 10:10:03.860 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531866">>,result,<<>>,{jid,<<...>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.860 [debug] <0.429.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531865">>,result,<<>>,{jid,<<>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.860 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531866">>,result,<<>>,
+    {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,
+         <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#block_list{items = []}],
+    #{}}
+2016-11-22 10:10:03.860 [debug] <0.421.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531860">>,result,<<>>,
+    {jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,
+        <<"conference.localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_info{
+         node = <<>>,
+         identities = 
+             [#identity{
+                  category = <<"conference">>,type = <<"text">>,lang = <<>>,
+                  name = <<"Chatrooms">>}],
+         features = 
+             [<<"http://jabber.org/protocol/disco#info">>,
+              <<"http://jabber.org/protocol/disco#items">>,
+              <<"jabber:iq:register">>,<<"http://jabber.org/protocol/muc">>,
+              <<"http://jabber.org/protocol/rsm">>,<<"vcard-temp">>,
+              <<"urn:xmpp:mucsub:0">>,
+              <<"http://jabber.org/protocol/muc#unique">>],
+         xdata = 
+             [#xdata{
+                  type = result,instructions = [],title = undefined,
+                  reported = undefined,items = [],
+                  fields = 
+                      [#xdata_field{
+                           label = <<>>,type = hidden,var = <<"FORM_TYPE">>,
+                           required = false,desc = <<>>,
+                           values = 
+                               [<<"http://jabber.org/network/serverinfo">>],
+                           options = [],sub_els = []}]}]}],
+    #{}}
+2016-11-22 10:10:03.860 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531866">>,result,<<>>,
+    {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,
+         <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#block_list{items = []}],
+    #{}}
+2016-11-22 10:10:03.860 [debug] <0.458.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531864">>,result,<<>>,{jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{roster_query,[],undefined}],#{}}
+2016-11-22 10:10:03.860 [debug] <0.429.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531865">>,result,<<>>,
+    {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_items{
+         node = <<"http://jabber.org/protocol/commands">>,
+         items = 
+             [#disco_item{
+                  jid = 
+                      {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,
+                          <<>>},
+                  name = <<"Ping">>,node = <<"ping">>}],
+         rsm = undefined}],
+    #{}}
+2016-11-22 10:10:03.860 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"proxy.eu.jabber.org">>,<<>>,<<>>,<<"proxy.eu.jabber.org">>,<<>>}
+	packet {iq,<<"purple61531867">>,get,<<>>,undefined,{jid,<<>>,<<"proxy.eu.jabber.org">>,<<>>,<<>>,<<"proxy.eu.jabber.org">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/bytestreams">>}],[]}],#{}}
+2016-11-22 10:10:03.860 [debug] <0.544.0>@ejabberd_s2s:do_route:296 s2s manager
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"proxy.eu.jabber.org">>,<<>>,<<>>,<<"proxy.eu.jabber.org">>,<<>>}
+	packet {iq,<<"purple61531867">>,get,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:03.860 [debug] <0.544.0>@ejabberd_s2s:find_connection:325 Finding connection for {<<"localhost">>,<<"proxy.eu.jabber.org">>}
+2016-11-22 10:10:03.861 [debug] <0.429.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531865">>,result,<<>>,
+    {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_items{
+         node = <<"http://jabber.org/protocol/commands">>,
+         items = 
+             [#disco_item{
+                  jid = 
+                      {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,
+                          <<>>},
+                  name = <<"Ping">>,node = <<"ping">>}],
+         rsm = undefined}],
+    #{}}
+2016-11-22 10:10:03.861 [debug] <0.458.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531864">>,result,<<>>,{jid,<<...>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.861 [debug] <0.421.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531860">>,result,<<>>,
+    {jid,<<>>,<<"conference.localhost">>,<<>>,<<>>,
+        <<"conference.localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_info{
+         node = <<>>,
+         identities = 
+             [#identity{
+                  category = <<"conference">>,type = <<"text">>,lang = <<>>,
+                  name = <<"Chatrooms">>}],
+         features = 
+             [<<"http://jabber.org/protocol/disco#info">>,
+              <<"http://jabber.org/protocol/disco#items">>,
+              <<"jabber:iq:register">>,<<"http://jabber.org/protocol/muc">>,
+              <<"http://jabber.org/protocol/rsm">>,<<"vcard-temp">>,
+              <<"urn:xmpp:mucsub:0">>,
+              <<"http://jabber.org/protocol/muc#unique">>],
+         xdata = 
+             [#xdata{
+                  type = result,instructions = [],title = undefined,
+                  reported = undefined,items = [],
+                  fields = 
+                      [#xdata_field{
+                           label = <<>>,type = hidden,var = <<"FORM_TYPE">>,
+                           required = false,desc = <<>>,
+                           values = 
+                               [<<"http://jabber.org/network/serverinfo">>],
+                           options = [],sub_els = []}]}]}],
+    #{}}
+2016-11-22 10:10:03.861 [debug] <0.483.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,<<"pubsub.localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531862">>,result,<<>>,{jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,<<"pubsub.localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{disco_info,<<>>,[{identity,<<"pubsub">>,<<"service">>,<<>>,<<"Publish-Subscribe">>}],[<<"http://jabber.org/protocol/disco#info">>,<<"http://jabber.org/protocol/disco#items">>,<<"http://jabber.org/protocol/pubsub">>,<<"http://jabber.org/protocol/commands">>,<<"vcard-temp">>,<<"http://jabber.org/protocol/pubsub#access-authorize">>,<<"http://jabber.org/protocol/pubsub#access-open">>,<<"http://jabber.org/protocol/pubsub#access-presence">>,<<"http://jabber.org/protocol/pubsub#access-whitelist">>,<<"http://jabber.org/protocol/pubsub#auto-create">>,<<"http://jabber.org/protocol/pubsub#auto-subscribe">>,<<"http://jabber.org/protocol/pubsub#collections">>,<<"http://jabber.org/protocol/pubsub#config-node">>,<<"http://jabber.org/protocol/pubsub#create-and-configure">>,<<"http://jabber.org/protocol/pubsub#create-nodes">>,<<"http://jabber.org/protocol/pubsub#delete-items">>,<<"http://jabber.org/protocol/pubsub#delete-nodes">>,<<"http://jabber.org/protocol/pubsub#filtered-notifications">>,<<"http://jabber.org/protocol/pubsub#get-pending">>,<<"http://jabber.org/protocol/pubsub#instant-nodes">>,<<"http://jabber.org/protocol/pubsub#item-ids">>,<<"http://jabber.org/protocol/pubsub#last-published">>,<<"http://jabber.org/protocol/pubsub#manage-subscriptions">>,<<"http://jabber.org/protocol/pubsub#member-affiliation">>,<<"http://jabber.org/protocol/pubsub#modify-affiliations">>,<<"http://jabber.org/protocol/pubsub#outcast-affiliation">>,<<"http://jabber.org/protocol/pubsub#persistent-items">>,<<"http://jabber.org/protocol/pubsub#presence-notifications">>,<<"http://jabber.org/protocol/pubsub#presence-subscribe">>,<<"http://jabber.org/protocol/pubsub#publish">>,<<"http://jabber.org/protocol/pubsub#publish-only-affiliation">>,<<"http://jabber.org/protocol/pubsub#publisher-affiliation">>,<<"http://jabber.org/protocol/pubsub#purge-nodes">>,<<"http://jabber.org/protocol/pubsub#retract-items">>,<<"http://jabber.org/protocol/pubsub#retrieve-affiliations">>,<<"http://jabber.org/protocol/pubsub#retrieve-default">>,<<"http://jabber.org/protocol/pubsub#retrieve-items">>,<<"http://jabber.org/protocol/pubsub#retrieve-subscriptions">>,<<"http://jabber.org/protocol/pubsub#shim">>,<<"http://jabber.org/protocol/pubsub#subscribe">>,<<"http://jabber.org/protocol/pubsub#subscription-notifications">>],[{xdata,result,[],undefined,undefined,[],[{xdata_field,<<>>,hidden,<<"FORM_TYPE">>,false,<<>>,[<<"http://jabber.org/network/serverinfo">>],[],[]}]}]}],#{}}
+2016-11-22 10:10:03.861 [debug] <0.545.0>@ejabberd_s2s_out:init:132 started: {<<"localhost">>,<<"proxy.eu.jabber.org">>,new}
+2016-11-22 10:10:03.861 [debug] <0.448.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531863">>,result,<<>>,{jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{vcard_temp,undefined,undefined,undefined,undefined,undefined,undefined,[],[],[],[],undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,[],undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],#{}}
+2016-11-22 10:10:03.861 [debug] <0.504.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531861">>,result,<<>>,
+    {jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,<<"irc.localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_info{
+         node = <<>>,
+         identities = 
+             [#identity{
+                  category = <<"conference">>,type = <<"irc">>,lang = <<>>,
+                  name = <<"IRC Transport">>}],
+         features = 
+             [<<"http://jabber.org/protocol/disco#info">>,
+              <<"http://jabber.org/protocol/disco#items">>,
+              <<"http://jabber.org/protocol/muc">>,<<"jabber:iq:register">>,
+              <<"vcard-temp">>,<<"http://jabber.org/protocol/commands">>],
+         xdata = 
+             [#xdata{
+                  type = result,instructions = [],title = undefined,
+                  reported = undefined,items = [],
+                  fields = 
+                      [#xdata_field{
+                           label = <<>>,type = hidden,var = <<"FORM_TYPE">>,
+                           required = false,desc = <<>>,
+                           values = 
+                               [<<"http://jabber.org/network/serverinfo">>],
+                           options = [],sub_els = []}]}]}],
+    #{}}
+2016-11-22 10:10:03.862 [debug] <0.483.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,<<"pubsub.localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531862">>,result,<<>>,{jid,<<>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.862 [debug] <0.458.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531864">>,result,<<>>,
+    {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,
+         <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#roster_query{items = [],ver = undefined}],
+    #{}}
+2016-11-22 10:10:03.862 [debug] <0.448.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531863">>,result,<<>>,{jid,<<...>>,...},{jid,...},[...],...}
+2016-11-22 10:10:03.863 [debug] <0.458.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531864">>,result,<<>>,
+    {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,
+         <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#roster_query{items = [],ver = undefined}],
+    #{}}
+2016-11-22 10:10:03.863 [debug] <0.504.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531861">>,result,<<>>,
+    {jid,<<>>,<<"irc.localhost">>,<<>>,<<>>,<<"irc.localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_info{
+         node = <<>>,
+         identities = 
+             [#identity{
+                  category = <<"conference">>,type = <<"irc">>,lang = <<>>,
+                  name = <<"IRC Transport">>}],
+         features = 
+             [<<"http://jabber.org/protocol/disco#info">>,
+              <<"http://jabber.org/protocol/disco#items">>,
+              <<"http://jabber.org/protocol/muc">>,<<"jabber:iq:register">>,
+              <<"vcard-temp">>,<<"http://jabber.org/protocol/commands">>],
+         xdata = 
+             [#xdata{
+                  type = result,instructions = [],title = undefined,
+                  reported = undefined,items = [],
+                  fields = 
+                      [#xdata_field{
+                           label = <<>>,type = hidden,var = <<"FORM_TYPE">>,
+                           required = false,desc = <<>>,
+                           values = 
+                               [<<"http://jabber.org/network/serverinfo">>],
+                           options = [],sub_els = []}]}]}],
+    #{}}
+2016-11-22 10:10:03.863 [info] <0.544.0>@ejabberd_s2s:new_connection:401 New s2s connection started <0.545.0>
+2016-11-22 10:10:03.863 [debug] <0.448.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531863">>,result,<<>>,
+    {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,
+         <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#vcard_temp{version = undefined,fn = undefined,n = undefined,
+                 nickname = undefined,photo = undefined,bday = undefined,
+                 adr = [],label = [],tel = [],email = [],jabberid = undefined,
+                 mailer = undefined,tz = undefined,geo = undefined,
+                 title = undefined,role = undefined,logo = undefined,
+                 org = undefined,categories = [],note = undefined,
+                 prodid = undefined,rev = undefined,sort_string = undefined,
+                 sound = undefined,uid = undefined,url = undefined,
+                 class = undefined,key = undefined,desc = undefined}],
+    #{}}
+2016-11-22 10:10:03.863 [debug] <0.544.0>@ejabberd_s2s:choose_pid:375 Using ejabberd_s2s_out <0.545.0>
+2016-11-22 10:10:03.863 [debug] <0.544.0>@ejabberd_s2s:do_route:301 sending to process <0.545.0>
+2016-11-22 10:10:03.863 [info] <0.545.0>@ejabberd_s2s_out:log_s2s_out:1006 Trying to open s2s connection: localhost -> proxy.eu.jabber.org with TLS=false
+2016-11-22 10:10:03.863 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='monkboy@localhost' type='result' id='purple61531866'><blocklist xmlns='urn:xmpp:blocking'/></iq>">>
+2016-11-22 10:10:03.863 [debug] <0.545.0>@ejabberd_s2s_out:open_socket:207 open_socket: {<<"localhost">>,<<"proxy.eu.jabber.org">>,true,false}
+2016-11-22 10:10:03.863 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='localhost' type='result' id='purple61531865'><query node='http://jabber.org/protocol/commands' xmlns='http://jabber.org/protocol/disco#items'><item node='ping' name='Ping' jid='localhost'/></query></iq>">>
+2016-11-22 10:10:03.863 [debug] <0.448.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531863">>,result,<<>>,
+    {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,
+         <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#vcard_temp{version = undefined,fn = undefined,n = undefined,
+                 nickname = undefined,photo = undefined,bday = undefined,
+                 adr = [],label = [],tel = [],email = [],jabberid = undefined,
+                 mailer = undefined,tz = undefined,geo = undefined,
+                 title = undefined,role = undefined,logo = undefined,
+                 org = undefined,categories = [],note = undefined,
+                 prodid = undefined,rev = undefined,sort_string = undefined,
+                 sound = undefined,uid = undefined,url = undefined,
+                 class = undefined,key = undefined,desc = undefined}],
+    #{}}
+2016-11-22 10:10:03.863 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='conference.localhost' type='result' id='purple61531860'><query xmlns='http://jabber.org/protocol/disco#info'><identity name='Chatrooms' type='text' category='conference'/><feature var='http://jabber.org/protocol/disco#info'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='jabber:iq:register'/><feature var='http://jabber.org/protocol/muc'/><feature var='http://jabber.org/protocol/rsm'/><feature var='vcard-temp'/><feature var='urn:xmpp:mucsub:0'/><feature var='http://jabber.org/protocol/muc#unique'/><x type='result' xmlns='jabber:x:data'><field var='FORM_TYPE' type='hidden'><value>http://jabber.org/network/serverinfo</value></field></x></query></iq>">>
+2016-11-22 10:10:03.864 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='monkboy@localhost' type='result' id='purple61531864'><query xmlns='jabber:iq:roster'/></iq>">>
+2016-11-22 10:10:03.864 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='irc.localhost' type='result' id='purple61531861'><query xmlns='http://jabber.org/protocol/disco#info'><identity name='IRC Transport' type='irc' category='conference'/><feature var='http://jabber.org/protocol/disco#info'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/muc'/><feature var='jabber:iq:register'/><feature var='vcard-temp'/><feature var='http://jabber.org/protocol/commands'/><x type='result' xmlns='jabber:x:data'><field var='FORM_TYPE' type='hidden'><value>http://jabber.org/network/serverinfo</value></field></x></query></iq>">>
+2016-11-22 10:10:03.864 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='monkboy@localhost' type='result' id='purple61531863'><vCard xmlns='vcard-temp'/></iq>">>
+2016-11-22 10:10:03.864 [debug] <0.483.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531862">>,result,<<>>,
+    {jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,<<"pubsub.localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_info{
+         node = <<>>,
+         identities = 
+             [#identity{
+                  category = <<"pubsub">>,type = <<"service">>,lang = <<>>,
+                  name = <<"Publish-Subscribe">>}],
+         features = 
+             [<<"http://jabber.org/protocol/disco#info">>,
+              <<"http://jabber.org/protocol/disco#items">>,
+              <<"http://jabber.org/protocol/pubsub">>,
+              <<"http://jabber.org/protocol/commands">>,<<"vcard-temp">>,
+              <<"http://jabber.org/protocol/pubsub#access-authorize">>,
+              <<"http://jabber.org/protocol/pubsub#access-open">>,
+              <<"http://jabber.org/protocol/pubsub#access-presence">>,
+              <<"http://jabber.org/protocol/pubsub#access-whitelist">>,
+              <<"http://jabber.org/protocol/pubsub#auto-create">>,
+              <<"http://jabber.org/protocol/pubsub#auto-subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#collections">>,
+              <<"http://jabber.org/protocol/pubsub#config-node">>,
+              <<"http://jabber.org/protocol/pubsub#create-and-configure">>,
+              <<"http://jabber.org/protocol/pubsub#create-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#delete-items">>,
+              <<"http://jabber.org/protocol/pubsub#delete-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#filtered-notifications">>,
+              <<"http://jabber.org/protocol/pubsub#get-pending">>,
+              <<"http://jabber.org/protocol/pubsub#instant-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#item-ids">>,
+              <<"http://jabber.org/protocol/pubsub#last-published">>,
+              <<"http://jabber.org/protocol/pubsub#manage-subscriptions">>,
+              <<"http://jabber.org/protocol/pubsub#member-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#modify-affiliations">>,
+              <<"http://jabber.org/protocol/pubsub#outcast-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#persistent-items">>,
+              <<"http://jabber.org/protocol/pubsub#presence-notifications">>,
+              <<"http://jabber.org/protocol/pubsub#presence-subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#publish">>,
+              <<"http://jabber.org/protocol/pubsub#publish-only-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#publisher-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#purge-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#retract-items">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-affiliations">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-default">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-items">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-subscriptions">>,
+              <<"http://jabber.org/protocol/pubsub#shim">>,
+              <<"http://jabber.org/protocol/pubsub#subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#subscription-notifications">>],
+         xdata = 
+             [#xdata{
+                  type = result,instructions = [],title = undefined,
+                  reported = undefined,items = [],
+                  fields = 
+                      [#xdata_field{
+                           label = <<>>,type = hidden,var = <<"FORM_TYPE">>,
+                           required = false,desc = <<>>,
+                           values = 
+                               [<<"http://jabber.org/network/serverinfo">>],
+                           options = [],sub_els = []}]}]}],
+    #{}}
+2016-11-22 10:10:03.866 [debug] <0.483.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531862">>,result,<<>>,
+    {jid,<<>>,<<"pubsub.localhost">>,<<>>,<<>>,<<"pubsub.localhost">>,<<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#disco_info{
+         node = <<>>,
+         identities = 
+             [#identity{
+                  category = <<"pubsub">>,type = <<"service">>,lang = <<>>,
+                  name = <<"Publish-Subscribe">>}],
+         features = 
+             [<<"http://jabber.org/protocol/disco#info">>,
+              <<"http://jabber.org/protocol/disco#items">>,
+              <<"http://jabber.org/protocol/pubsub">>,
+              <<"http://jabber.org/protocol/commands">>,<<"vcard-temp">>,
+              <<"http://jabber.org/protocol/pubsub#access-authorize">>,
+              <<"http://jabber.org/protocol/pubsub#access-open">>,
+              <<"http://jabber.org/protocol/pubsub#access-presence">>,
+              <<"http://jabber.org/protocol/pubsub#access-whitelist">>,
+              <<"http://jabber.org/protocol/pubsub#auto-create">>,
+              <<"http://jabber.org/protocol/pubsub#auto-subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#collections">>,
+              <<"http://jabber.org/protocol/pubsub#config-node">>,
+              <<"http://jabber.org/protocol/pubsub#create-and-configure">>,
+              <<"http://jabber.org/protocol/pubsub#create-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#delete-items">>,
+              <<"http://jabber.org/protocol/pubsub#delete-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#filtered-notifications">>,
+              <<"http://jabber.org/protocol/pubsub#get-pending">>,
+              <<"http://jabber.org/protocol/pubsub#instant-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#item-ids">>,
+              <<"http://jabber.org/protocol/pubsub#last-published">>,
+              <<"http://jabber.org/protocol/pubsub#manage-subscriptions">>,
+              <<"http://jabber.org/protocol/pubsub#member-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#modify-affiliations">>,
+              <<"http://jabber.org/protocol/pubsub#outcast-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#persistent-items">>,
+              <<"http://jabber.org/protocol/pubsub#presence-notifications">>,
+              <<"http://jabber.org/protocol/pubsub#presence-subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#publish">>,
+              <<"http://jabber.org/protocol/pubsub#publish-only-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#publisher-affiliation">>,
+              <<"http://jabber.org/protocol/pubsub#purge-nodes">>,
+              <<"http://jabber.org/protocol/pubsub#retract-items">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-affiliations">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-default">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-items">>,
+              <<"http://jabber.org/protocol/pubsub#retrieve-subscriptions">>,
+              <<"http://jabber.org/protocol/pubsub#shim">>,
+              <<"http://jabber.org/protocol/pubsub#subscribe">>,
+              <<"http://jabber.org/protocol/pubsub#subscription-notifications">>],
+         xdata = 
+             [#xdata{
+                  type = result,instructions = [],title = undefined,
+                  reported = undefined,items = [],
+                  fields = 
+                      [#xdata_field{
+                           label = <<>>,type = hidden,var = <<"FORM_TYPE">>,
+                           required = false,desc = <<>>,
+                           values = 
+                               [<<"http://jabber.org/network/serverinfo">>],
+                           options = [],sub_els = []}]}]}],
+    #{}}
+2016-11-22 10:10:03.867 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='pubsub.localhost' type='result' id='purple61531862'><query xmlns='http://jabber.org/protocol/disco#info'><identity name='Publish-Subscribe' type='service' category='pubsub'/><feature var='http://jabber.org/protocol/disco#info'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/pubsub'/><feature var='http://jabber.org/protocol/commands'/><feature var='vcard-temp'/><feature var='http://jabber.org/protocol/pubsub#access-authorize'/><feature var='http://jabber.org/protocol/pubsub#access-open'/><feature var='http://jabber.org/protocol/pubsub#access-presence'/><feature var='http://jabber.org/protocol/pubsub#access-whitelist'/><feature var='http://jabber.org/protocol/pubsub#auto-create'/><feature var='http://jabber.org/protocol/pubsub#auto-subscribe'/><feature var='http://jabber.org/protocol/pubsub#collections'/><feature var='http://jabber.org/protocol/pubsub#config-node'/><feature var='http://jabber.org/protocol/pubsub#create-and-configure'/><feature var='http://jabber.org/protocol/pubsub#create-nodes'/><feature var='http://jabber.org/protocol/pubsub#delete-items'/><feature var='http://jabber.org/protocol/pubsub#delete-nodes'/><feature var='http://jabber.org/protocol/pubsub#filtered-notifications'/><feature var='http://jabber.org/protocol/pubsub#get-pending'/><feature var='http://jabber.org/protocol/pubsub#instant-nodes'/><feature var='http://jabber.org/protocol/pubsub#item-ids'/><feature var='http://jabber.org/protocol/pubsub#last-published'/><feature var='http://jabber.org/protocol/pubsub#manage-subscriptions'/><feature var='http://jabber.org/protocol/pubsub#member-affiliation'/><feature var='http://jabber.org/protocol/pubsub#modify-affiliations'/><feature var='http://jabber.org/protocol/pubsub#outcast-affiliation'/><feature var='http://jabber.org/protocol/pubsub#persistent-items'/><feature var='http://jabber.org/protocol/pubsub#presence-notifications'/><feature var='http://jabber.org/protocol/pubsub#presence-subscribe'/><feature var='http://jabber.org/protocol/pubsub#publish'/><feature var='http://jabber.org/protocol/pubsub#publish-only-affiliation'/><feature var='http://jabber.org/protocol/pubsub#publisher-affiliation'/><feature var='http://jabber.org/protocol/pubsub#purge-nodes'/><feature var='http://jabber.org/protocol/pubsub#retract-items'/><feature var='http://jabber.org/protocol/pubsub#retrieve-affiliations'/><feature var='http://jabber.org/protocol/pubsub#retrieve-default'/><feature var='http://jabber.org/protocol/pubsub#retrieve-items'/><feature var='http://jabber.org/protocol/pubsub#retrieve-subscriptions'/><feature var='http://jabber.org/protocol/pubsub#shim'/><feature var='http://jabber.org/protocol/pubsub#subscribe'/><feature var='http://jabber.org/protocol/pubsub#subscription-notifications'/><x type='result' xmlns='jabber:x:data'><field var='FORM_TYPE' type='hidden'><value>http://jabber.org/network/serverinfo</value></field></x></query></iq>">>
+2016-11-22 10:10:04.365 [debug] <0.545.0>@ejabberd_s2s_out:get_addr_port:846 srv lookup of 'proxy.eu.jabber.org' failed: nxdomain
+2016-11-22 10:10:04.365 [debug] <0.546.0> Supervisor inet_gethost_native_sup started undefined at pid <0.547.0>
+2016-11-22 10:10:04.365 [debug] <0.57.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.546.0>
+2016-11-22 10:10:04.612 [debug] <0.545.0>@ejabberd_s2s_out:get_addrs:938 inet lookup of 'proxy.eu.jabber.org' failed: nxdomain
+2016-11-22 10:10:04.613 [debug] <0.545.0>@ejabberd_s2s_out:get_addrs:938 inet6 lookup of 'proxy.eu.jabber.org' failed: nxdomain
+2016-11-22 10:10:04.613 [info] <0.545.0>@ejabberd_s2s_out:open_socket:235 s2s connection: localhost -> proxy.eu.jabber.org (remote server not found)
+2016-11-22 10:10:04.614 [debug] <0.545.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"proxy.eu.jabber.org">>,<<>>,<<>>,<<"proxy.eu.jabber.org">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531867">>,error,<<>>,{jid,<<>>,<<"proxy.eu.jabber.org">>,<<>>,<<>>,<<"proxy.eu.jabber.org">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/bytestreams">>}],[]},{stanza_error,cancel,404,<<>>,'remote-server-not-found',undefined,[]}],#{}}
+2016-11-22 10:10:04.614 [debug] <0.545.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"proxy.eu.jabber.org">>,<<>>,<<>>,<<"proxy.eu.jabber.org">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531867">>,error,<<>>,{jid,<<>>,...},{jid,...},[...],...}
+2016-11-22 10:10:04.614 [debug] <0.545.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531867">>,error,<<>>,
+    {jid,<<>>,<<"proxy.eu.jabber.org">>,<<>>,<<>>,<<"proxy.eu.jabber.org">>,
+         <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [{xmlel,<<"query">>,
+            [{<<"xmlns">>,<<"http://jabber.org/protocol/bytestreams">>}],
+            []},
+     #stanza_error{type = cancel,code = 404,by = <<>>,
+                   reason = 'remote-server-not-found',text = undefined,
+                   sub_els = []}],
+    #{}}
+2016-11-22 10:10:04.614 [debug] <0.545.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531867">>,error,<<>>,
+    {jid,<<>>,<<"proxy.eu.jabber.org">>,<<>>,<<>>,<<"proxy.eu.jabber.org">>,
+         <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [{xmlel,<<"query">>,
+            [{<<"xmlns">>,<<"http://jabber.org/protocol/bytestreams">>}],
+            []},
+     #stanza_error{type = cancel,code = 404,by = <<>>,
+                   reason = 'remote-server-not-found',text = undefined,
+                   sub_els = []}],
+    #{}}
+2016-11-22 10:10:04.614 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='proxy.eu.jabber.org' type='error' id='purple61531867'><query xmlns='http://jabber.org/protocol/bytestreams'/><error code='404' type='cancel'><remote-server-not-found xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/></error></iq>">>
+2016-11-22 10:10:04.696 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<presence><priority>1</priority><c xmlns='http://jabber.org/protocol/caps' node='http://pidgin.im/' hash='sha-1' ver='AcN1/PEN8nq7AHD+9jpxMV4U6YM=' ext='voice-v1 camera-v1 video-v1'/><x xmlns='vcard-temp:x:update'/></presence><iq type='set' id='purple61531868'><pubsub xmlns='http://jabber.org/protocol/pubsub'><publish node='http://jabber.org/protocol/tune'><item><tune xmlns='http://jabber.org/protocol/tune'/></item></publish></pubsub></iq>">>
+2016-11-22 10:10:04.696 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,999.9402631744663,1479780604695917}, Size=443
+M=442.97353816703446, I=0.843
+2016-11-22 10:10:04.705 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"17575160062639818157">>,get,<<>>,undefined,undefined,[{disco_info,<<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>,[],[],[]}],#{}}
+2016-11-22 10:10:04.705 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"17575160062639818157">>,get,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:10:04.705 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"17575160062639818157">>,get,<<>>,undefined,undefined,
+    [#disco_info{node = <<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>,
+                 identities = [],features = [],xdata = []}],
+    #{}}
+2016-11-22 10:10:04.705 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"17575160062639818157">>,get,<<>>,undefined,undefined,
+    [#disco_info{node = <<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>,
+                 identities = [],features = [],xdata = []}],
+    #{}}
+2016-11-22 10:10:04.705 [debug] <0.544.0>@ejabberd_c2s:session_established2:1133 presence_update({jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+	{presence,<<>>,available,<<>>,undefined,undefined,undefined,[],1,[{xmlel,<<"c">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/caps">>},{<<"node">>,<<"http://pidgin.im/">>},{<<"hash">>,<<"sha-1">>},{<<"ver">>,<<"AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>},{<<"ext">>,<<"voice-v1 camera-v1 video-v1">>}],[]},{xmlel,<<"x">>,[{<<"xmlns">>,<<"vcard-temp:x:update">>}],[]}],#{}},
+	{state,{socket_state,gen_tcp,#Port<0.13927>,<0.543.0>},ejabberd_socket,#Ref<0.0.1.3285>,false,<<"11657882681181477862">>,undefined,c2s,c2s_shaper,false,false,false,false,[verify_none,compression_none],true,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,{{1479,780602,4},<0.544.0>},{1,{{<<"monkboy">>,<<"localhost">>,<<>>},nil,nil}},{1,{{<<"monkboy">>,<<"localhost">>,<<>>},nil,nil}},{0,nil},undefined,undefined,{userlist,none,[],false},c2s,ejabberd_auth_mnesia,{{127,0,0,1},54714},[],active,inactive,undefined,undefined,1000,undefined,300,300,60000,undefined,false,0,0,0,true,<<>>})
+2016-11-22 10:10:04.705 [debug] <0.544.0>@ejabberd_c2s:presence_update:1790 from unavail = true
+2016-11-22 10:10:04.705 [debug] <0.544.0>@mod_shared_roster:user_available:748 user_available for <<"monkboy">> @ <<"localhost">> (1 resources)
+2016-11-22 10:10:04.706 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {message,<<>>,normal,<<>>,undefined,undefined,[{text,<<>>,<<"Welcome!">>}],[{text,<<>>,<<"Hi.\nWelcome to this XMPP server.">>}],undefined,[{delay,{1479,780439,884682},{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},<<"Offline storage">>}],#{}}
+2016-11-22 10:10:04.706 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {message,<<>>,normal,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:10:04.706 [debug] <0.544.0>@ejabberd_sm:do_route:504 processing message to bare JID:
+{message,<<>>,normal,<<>>,undefined,undefined,
+         [{text,<<>>,<<"Welcome!">>}],
+         [{text,<<>>,<<"Hi.\nWelcome to this XMPP server.">>}],
+         undefined,
+         [#delay{stamp = {1479,780439,884682},
+                 from = {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,
+                             <<>>},
+                 desc = <<"Offline storage">>}],
+         #{}}
+2016-11-22 10:10:04.706 [debug] <0.544.0>@ejabberd_sm:route_message:586 sending to process <0.544.0>
+2016-11-22 10:10:04.706 [debug] <0.544.0>@ejabberd_router_multicast:do_route:215 route_multicast
+	from monkboy@localhost/17904378891235861903362
+	domain localhost
+	destinations [<<"monkboy@localhost">>]
+	packet {presence,<<>>,probe,<<>>,undefined,undefined,undefined,[],undefined,[],#{}}
+2016-11-22 10:10:04.706 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {presence,<<>>,probe,<<>>,undefined,undefined,undefined,[],undefined,[],#{}}
+2016-11-22 10:10:04.706 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {presence,<<>>,probe,<<>>,undefined,undefined,undefined,...}
+2016-11-22 10:10:04.706 [debug] <0.544.0>@ejabberd_sm:do_route:497 processing presence to bare JID:
+{presence,<<>>,probe,<<>>,undefined,undefined,undefined,[],undefined,[],#{}}
+2016-11-22 10:10:04.707 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{presence,<<>>,probe,<<>>,undefined,undefined,undefined,[],undefined,[],#{}}
+2016-11-22 10:10:04.707 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{presence,<<>>,probe,<<>>,undefined,undefined,undefined,[],undefined,[],#{}}
+2016-11-22 10:10:04.707 [debug] <0.544.0>@ejabberd_router_multicast:do_route:215 route_multicast
+	from monkboy@localhost/17904378891235861903362
+	domain localhost
+	destinations [<<"monkboy@localhost">>]
+	packet {presence,<<>>,available,<<>>,undefined,undefined,undefined,[],1,[{xmlel,<<"c">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/caps">>},{<<"node">>,<<"http://pidgin.im/">>},{<<"hash">>,<<"sha-1">>},{<<"ver">>,<<"AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>},{<<"ext">>,<<"voice-v1 camera-v1 video-v1">>}],[]},{xmlel,<<"x">>,[{<<"xmlns">>,<<"vcard-temp:x:update">>}],[]}],#{}}
+2016-11-22 10:10:04.707 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {presence,<<>>,available,<<>>,undefined,undefined,undefined,[],1,[{xmlel,<<"c">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/caps">>},{<<"node">>,<<"http://pidgin.im/">>},{<<"hash">>,<<"sha-1">>},{<<"ver">>,<<"AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>},{<<"ext">>,<<"voice-v1 camera-v1 video-v1">>}],[]},{xmlel,<<"x">>,[{<<"xmlns">>,<<"vcard-temp:x:update">>}],[]}],#{}}
+2016-11-22 10:10:04.707 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {presence,<<>>,available,<<>>,undefined,undefined,undefined,...}
+2016-11-22 10:10:04.707 [debug] <0.544.0>@ejabberd_sm:do_route:497 processing presence to bare JID:
+{presence,<<>>,available,<<>>,undefined,undefined,undefined,[],1,
+          [{xmlel,<<"c">>,
+                  [{<<"xmlns">>,<<"http://jabber.org/protocol/caps">>},
+                   {<<"node">>,<<"http://pidgin.im/">>},
+                   {<<"hash">>,<<"sha-1">>},
+                   {<<"ver">>,<<"AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>},
+                   {<<"ext">>,<<"voice-v1 camera-v1 video-v1">>}],
+                  []},
+           {xmlel,<<"x">>,[{<<"xmlns">>,<<"vcard-temp:x:update">>}],[]}],
+          #{}}
+2016-11-22 10:10:04.707 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{presence,<<>>,available,<<>>,undefined,undefined,undefined,[],1,
+          [{xmlel,<<"c">>,
+                  [{<<"xmlns">>,<<"http://jabber.org/protocol/caps">>},
+                   {<<"node">>,<<"http://pidgin.im/">>},
+                   {<<"hash">>,<<"sha-1">>},
+                   {<<"ver">>,<<"AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>},
+                   {<<"ext">>,<<"voice-v1 camera-v1 video-v1">>}],
+                  []},
+           {xmlel,<<"x">>,[{<<"xmlns">>,<<"vcard-temp:x:update">>}],[]}],
+          #{}}
+2016-11-22 10:10:04.708 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{presence,<<>>,available,<<>>,undefined,undefined,undefined,[],1,
+          [{xmlel,<<"c">>,
+                  [{<<"xmlns">>,<<"http://jabber.org/protocol/caps">>},
+                   {<<"node">>,<<"http://pidgin.im/">>},
+                   {<<"hash">>,<<"sha-1">>},
+                   {<<"ver">>,<<"AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>},
+                   {<<"ext">>,<<"voice-v1 camera-v1 video-v1">>}],
+                  []},
+           {xmlel,<<"x">>,[{<<"xmlns">>,<<"vcard-temp:x:update">>}],[]}],
+          #{}}
+2016-11-22 10:10:04.708 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple61531868">>,set,<<>>,undefined,undefined,[{xmlel,<<"pubsub">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/pubsub">>}],[{xmlel,<<"publish">>,[{<<"node">>,<<"http://jabber.org/protocol/tune">>}],[{xmlel,<<"item">>,[],[{xmlel,<<"tune">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/tune">>}],[]}]}]}]}],#{}}
+2016-11-22 10:10:04.708 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	packet {iq,<<"purple61531868">>,set,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:10:04.708 [debug] <0.544.0>@ejabberd_sm:do_route:514 processing IQ to bare JID:
+{iq,<<"purple61531868">>,set,<<>>,undefined,undefined,
+    [{xmlel,<<"pubsub">>,
+            [{<<"xmlns">>,<<"http://jabber.org/protocol/pubsub">>}],
+            [{xmlel,<<"publish">>,
+                    [{<<"node">>,<<"http://jabber.org/protocol/tune">>}],
+                    [{xmlel,<<"item">>,[],
+                            [{xmlel,<<"tune">>,
+                                    [{<<"xmlns">>,
+                                      <<"http://jabber.org/protocol/tune">>}],
+                                    []}]}]}]}],
+    #{}}
+2016-11-22 10:10:04.708 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='localhost' type='get' id='17575160062639818157'><query node='http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=' xmlns='http://jabber.org/protocol/disco#info'/></iq>">>
+2016-11-22 10:10:04.708 [debug] <0.489.0>@mod_pubsub:tree_call:3567 tree_call apply(nodetree_tree, get_node, [{<<"monkboy">>,<<"localhost">>,<<>>},<<"http://jabber.org/protocol/tune">>]) @ localhost
+2016-11-22 10:10:04.708 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<message to='monkboy@localhost' from='localhost'><delay from='localhost' stamp='2016-11-22T02:07:19.884682Z' xmlns='urn:xmpp:delay'>Offline storage</delay><body>Hi.\nWelcome to this XMPP server.</body><subject>Welcome!</subject></message>">>
+2016-11-22 10:10:04.708 [debug] <0.489.0>@mod_pubsub:node_call:3594 node_call <<"pep">> node_to_path [<<"http://jabber.org/protocol/tune">>]
+2016-11-22 10:10:04.708 [debug] <0.489.0>@mod_pubsub:node_call:3594 node_call <<"pep">> create_node_permission [{<<"monkboy">>,<<"localhost">>,<<>>},<<"localhost">>,<<"http://jabber.org/protocol/tune">>,<<>>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},all]
+2016-11-22 10:10:04.709 [debug] <0.494.0>@mod_pubsub:node_action:3613 node_action <<"pubsub.localhost">> <<"flat">> get_entity_subscriptions [<<"pubsub.localhost">>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]
+2016-11-22 10:10:04.709 [debug] <0.494.0>@mod_pubsub:node_call:3594 node_call <<"flat">> get_entity_subscriptions [<<"pubsub.localhost">>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]
+2016-11-22 10:10:04.709 [debug] <0.489.0>@mod_pubsub:tree_call:3567 tree_call apply(nodetree_tree, create_node, [{<<"monkboy">>,<<"localhost">>,<<>>},<<"http://jabber.org/protocol/tune">>,<<"pep">>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{deliver_payloads,true},{notify_config,false},{notify_delete,false},{notify_retract,false},{purge_offline,false},{persist_items,true},{max_items,1},{subscribe,true},{access_model,presence},{roster_groups_allowed,[]},{publish_model,publishers},{notification_type,headline},{max_payload_size,60000},{send_last_published_item,on_sub_and_presence},{deliver_notifications,true},{presence_based_delivery,true},{itemreply,none}],[]]) @ localhost
+2016-11-22 10:10:04.709 [debug] <0.494.0>@mod_pubsub:node_action:3613 node_action <<"pubsub.localhost">> <<"hometree">> get_entity_subscriptions [<<"pubsub.localhost">>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]
+2016-11-22 10:10:04.709 [debug] <0.494.0>@mod_pubsub:node_call:3594 node_call <<"hometree">> get_entity_subscriptions [<<"pubsub.localhost">>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]
+2016-11-22 10:10:04.709 [debug] <0.494.0>@mod_pubsub:node_action:3613 node_action <<"pubsub.localhost">> <<"pep">> get_entity_subscriptions [<<"pubsub.localhost">>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]
+2016-11-22 10:10:04.709 [debug] <0.494.0>@mod_pubsub:node_call:3594 node_call <<"pep">> get_entity_subscriptions [<<"pubsub.localhost">>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]
+2016-11-22 10:10:04.709 [debug] <0.548.0>@mod_pubsub:tree_action:3571 tree_action <<"pubsub.localhost">> get_nodes [{<<"monkboy">>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]
+2016-11-22 10:10:04.709 [debug] <0.489.0>@mod_pubsub:tree_call:3567 tree_call apply(nodetree_tree, get_parentnodes_tree, [{<<"monkboy">>,<<"localhost">>,<<>>},<<"http://jabber.org/protocol/tune">>,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]) @ localhost
+2016-11-22 10:10:04.709 [debug] <0.489.0>@mod_pubsub:node_call:3594 node_call <<"pep">> get_node_subscriptions [3]
+2016-11-22 10:10:04.709 [debug] <0.548.0>@mod_pubsub:tree_call:3567 tree_call apply(nodetree_tree, get_nodes, [{<<"monkboy">>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]) @ pubsub.localhost
+2016-11-22 10:10:04.710 [debug] <0.489.0>@mod_pubsub:node_call:3594 node_call <<"pep">> create_node [3,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}]
+2016-11-22 10:10:04.710 [debug] <0.489.0>@mod_pubsub:tree_call:3567 tree_call apply(nodetree_tree, get_node, [{<<"monkboy">>,<<"localhost">>,<<>>},<<"http://jabber.org/protocol/tune">>]) @ localhost
+2016-11-22 10:10:04.710 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<presence to='monkboy@localhost/17904378891235861903362' from='monkboy@localhost/17904378891235861903362'><c xmlns='http://jabber.org/protocol/caps' node='http://pidgin.im/' hash='sha-1' ver='AcN1/PEN8nq7AHD+9jpxMV4U6YM=' ext='voice-v1 camera-v1 video-v1'/><x xmlns='vcard-temp:x:update'/><priority>1</priority></presence>">>
+2016-11-22 10:10:04.710 [debug] <0.489.0>@mod_pubsub:node_call:3594 node_call <<"pep">> publish_item [3,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},publishers,1,<<"5C7BE93CACFBA">>,[{xmlel,<<"tune">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/tune">>}],[]}],[]]
+2016-11-22 10:10:04.713 [debug] <0.489.0>@mod_pubsub:tree_call:3567 tree_call apply(nodetree_tree, get_parentnodes_tree, [{<<"monkboy">>,<<"localhost">>,<<>>},<<"http://jabber.org/protocol/tune">>,{jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}]) @ localhost
+2016-11-22 10:10:04.713 [debug] <0.489.0>@mod_pubsub:node_call:3594 node_call <<"pep">> get_node_subscriptions [3]
+2016-11-22 10:10:04.714 [debug] <0.489.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531868">>,result,<<>>,{jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>},{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{pubsub,undefined,undefined,undefined,{ps_publish,<<"http://jabber.org/protocol/tune">>,[{ps_item,<<>>,<<"5C7BE93CACFBA">>,[],<<>>,<<>>}]},undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined}],#{}}
+2016-11-22 10:10:04.714 [debug] <0.489.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531868">>,result,<<>>,{jid,<<...>>,...},{jid,...},[...],...}
+2016-11-22 10:10:04.714 [debug] <0.489.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531868">>,result,<<>>,
+    {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,
+        <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#pubsub{
+         subscriptions = undefined,subscription = undefined,
+         affiliations = undefined,
+         publish = 
+             #ps_publish{
+                 node = <<"http://jabber.org/protocol/tune">>,
+                 items = 
+                     [#ps_item{
+                          xmlns = <<>>,id = <<"5C7BE93CACFBA">>,xml_els = [],
+                          node = <<>>,publisher = <<>>}]},
+         publish_options = undefined,subscribe = undefined,
+         unsubscribe = undefined,options = undefined,items = undefined,
+         retract = undefined,create = undefined,configure = undefined,
+         default = undefined,delete = undefined,purge = undefined,
+         rsm = undefined}],
+    #{}}
+2016-11-22 10:10:04.715 [debug] <0.489.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531868">>,result,<<>>,
+    {jid,<<"monkboy">>,<<"localhost">>,<<>>,<<"monkboy">>,<<"localhost">>,
+        <<>>},
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+        <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [#pubsub{
+         subscriptions = undefined,subscription = undefined,
+         affiliations = undefined,
+         publish = 
+             #ps_publish{
+                 node = <<"http://jabber.org/protocol/tune">>,
+                 items = 
+                     [#ps_item{
+                          xmlns = <<>>,id = <<"5C7BE93CACFBA">>,xml_els = [],
+                          node = <<>>,publisher = <<>>}]},
+         publish_options = undefined,subscribe = undefined,
+         unsubscribe = undefined,options = undefined,items = undefined,
+         retract = undefined,create = undefined,configure = undefined,
+         default = undefined,delete = undefined,purge = undefined,
+         rsm = undefined}],
+    #{}}
+2016-11-22 10:10:04.715 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='monkboy@localhost' type='result' id='purple61531868'><pubsub xmlns='http://jabber.org/protocol/pubsub'><publish node='http://jabber.org/protocol/tune'><item id='5C7BE93CACFBA'/></publish></pubsub></iq>">>
+2016-11-22 10:10:05.140 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='result' id='17575160062639818157' to='localhost'><query xmlns='http://jabber.org/protocol/disco#info' node='http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM='><identity category='client' type='pc' name='Pidgin'/><feature var='jabber:iq:last'/><feature var='jabber:iq:oob'/><feature var='urn:xmpp:time'/><feature var='jabber:iq:version'/><feature var='jabber:x:conference'/><feature var='http://jabber.org/protocol/bytestreams'/><feature var='http://jabber.org/protocol/caps'/><feature var='http://jabber.org/protocol/chatstates'/><feature var='http://jabber.org/protocol/disco#info'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/muc'/><feature var='http://jabber.org/protocol/muc#user'/><feature var='http://jabber.org/protocol/si'/><feature var='http://jabber.org/protocol/si/profile/file-transfer'/><feature var='http://jabber.org/protocol/xhtml-im'/><feature var='urn:xmpp:ping'/><feature var='urn:xmpp:attention:0'/><feature var='urn:xmpp:bob'/><feature var='urn:xmpp:jingle:1'/><feature var='http://www.google.com/xmpp/protocol/session'/><feature var='http://www.google.com/xmpp/protocol/voice/v1'/><feature var='http://www.google.com/xmpp/protocol/video/v1'/><feature var='http://www.google.com/xmpp/protocol/camera/v1'/><feature var='urn:xmpp:jingle:apps:rtp:1'/><feature var='urn:xmpp:jingle:apps:rtp:audio'/><feature var='urn:xmpp:jingle:apps:rtp:video'/><feature var='urn:xmpp:jingle:transpor">>
+2016-11-22 10:10:05.140 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,998.8810866807423,1479780605139884}, Size=1460
+M=1458.368212382783, I=0.995
+2016-11-22 10:10:06.599 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"ts:raw-udp:1'/><feature var='urn:xmpp:jingle:transports:ice-udp:1'/><feature var='urn:xmpp:avatar:metadata'/><feature var='urn:xmpp:avatar:data'/><feature var='urn:xmpp:avatar:metadata+notify'/><feature var='http://jabber.org/protocol/mood'/><feature var='http://jabber.org/protocol/mood+notify'/><feature var='http://jabber.org/protocol/tune'/><feature var='http://jabber.org/protocol/tune+notify'/><feature var='http://jabber.org/protocol/nick'/><feature var='http://jabber.org/protocol/nick+notify'/><feature var='http://jabber.org/protocol/ibb'/></query></iq><iq type='get' id='purple61531869' to='monkboy@localhost/17904378891235861903362'><query xmlns='http://jabber.org/protocol/disco#info' node='http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM='/></iq>">>
+2016-11-22 10:10:06.599 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,999.7616398248958,1479780606598947}, Size=758
+M=757.8193660432127, I=0.897
+2016-11-22 10:10:06.600 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"17575160062639818157">>,result,<<>>,undefined,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},{<<"node">>,<<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>}],[{xmlel,<<"identity">>,[{<<"category">>,<<"client">>},{<<"type">>,<<"pc">>},{<<"name">>,<<"Pidgin">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:last">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:oob">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:time">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:version">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"jabber:x:conference">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/bytestreams">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/caps">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/chatstates">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/disco#info">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/disco#items">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/muc">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/muc#user">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/si">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/si/profile/file-transfer">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/xhtml-im">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:ping">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:attention:0">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:bob">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/session">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/voice/v1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/video/v1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/camera/v1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:audio">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:video">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:transports:raw-udp:1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:transports:ice-udp:1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:avatar:metadata">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:avatar:data">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:avatar:metadata+notify">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/mood">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/mood+notify">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/tune">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/tune+notify">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/nick">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/nick+notify">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/ibb">>}],[]}]}],#{}}
+2016-11-22 10:10:06.600 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"17575160062639818157">>,result,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"1493032279363636271">>,get,<<>>,undefined,undefined,[{disco_info,<<"http://pidgin.im/#voice-v1">>,[],[],[]}],#{}}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"1493032279363636271">>,get,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"1493032279363636271">>,get,<<>>,undefined,undefined,
+    [#disco_info{node = <<"http://pidgin.im/#voice-v1">>,identities = [],
+                 features = [],xdata = []}],
+    #{}}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"1493032279363636271">>,get,<<>>,undefined,undefined,
+    [#disco_info{node = <<"http://pidgin.im/#voice-v1">>,identities = [],
+                 features = [],xdata = []}],
+    #{}}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531869">>,get,<<>>,undefined,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},{<<"node">>,<<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>}],[]}],#{}}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531869">>,get,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531869">>,get,<<>>,undefined,
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [{xmlel,<<"query">>,
+            [{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},
+             {<<"node">>,
+              <<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>}],
+            []}],
+    #{}}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531869">>,get,<<>>,undefined,
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [{xmlel,<<"query">>,
+            [{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},
+             {<<"node">>,
+              <<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>}],
+            []}],
+    #{}}
+2016-11-22 10:10:06.601 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='localhost' type='get' id='1493032279363636271'><query node='http://pidgin.im/#voice-v1' xmlns='http://jabber.org/protocol/disco#info'/></iq>">>
+2016-11-22 10:10:06.602 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='monkboy@localhost/17904378891235861903362' type='get' id='purple61531869'><query xmlns='http://jabber.org/protocol/disco#info' node='http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM='/></iq>">>
+2016-11-22 10:10:07.357 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='result' id='1493032279363636271' to='localhost'><query xmlns='http://jabber.org/protocol/disco#info' node='http://pidgin.im/#voice-v1'><feature var='http://www.google.com/xmpp/protocol/voice/v1'/></query></iq><iq type='result' id='purple61531869' to='monkboy@localhost/17904378891235861903362'><query xmlns='http://jabber.org/protocol/disco#info' node='http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM='><identity category='client' type='pc' name='Pidgin'/><feature var='jabber:iq:last'/><feature var='jabber:iq:oob'/><feature var='urn:xmpp:time'/><feature var='jabber:iq:version'/><feature var='jabber:x:conference'/><feature var='http://jabber.org/protocol/bytestreams'/><feature var='http://jabber.org/protocol/caps'/><feature var='http://jabber.org/protocol/chatstates'/><feature var='http://jabber.org/protocol/disco#info'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/muc'/><feature var='http://jabber.org/protocol/muc#user'/><feature var='http://jabber.org/protocol/si'/><feature var='http://jabber.org/protocol/si/profile/file-transfer'/><feature var='http://jabber.org/protocol/xhtml-im'/><feature var='urn:xmpp:ping'/><feature var='urn:xmpp:attention:0'/><feature var='urn:xmpp:bob'/><feature var='urn:xmpp:jingle:1'/><feature var='http://www.google.com/xmpp/protocol/session'/><feature var='http://www.google.com/xmpp/protocol/voice/v1'/><feature var='http://www.google.com/xmpp/protocol/vid">>
+2016-11-22 10:10:07.358 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,999.8946725389719,1479780607356926}, Size=1460
+M=1459.8462381022493, I=1.021
+2016-11-22 10:10:07.358 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"1493032279363636271">>,result,<<>>,undefined,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},{<<"node">>,<<"http://pidgin.im/#voice-v1">>}],[{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/voice/v1">>}],[]}]}],#{}}
+2016-11-22 10:10:07.358 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"1493032279363636271">>,result,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:07.358 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"14677192111048696231">>,get,<<>>,undefined,undefined,[{disco_info,<<"http://pidgin.im/#camera-v1">>,[],[],[]}],#{}}
+2016-11-22 10:10:07.358 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"14677192111048696231">>,get,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:10:07.358 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"14677192111048696231">>,get,<<>>,undefined,undefined,
+    [#disco_info{node = <<"http://pidgin.im/#camera-v1">>,identities = [],
+                 features = [],xdata = []}],
+    #{}}
+2016-11-22 10:10:07.358 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"14677192111048696231">>,get,<<>>,undefined,undefined,
+    [#disco_info{node = <<"http://pidgin.im/#camera-v1">>,identities = [],
+                 features = [],xdata = []}],
+    #{}}
+2016-11-22 10:10:07.358 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='localhost' type='get' id='14677192111048696231'><query node='http://pidgin.im/#camera-v1' xmlns='http://jabber.org/protocol/disco#info'/></iq>">>
+2016-11-22 10:10:08.817 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"eo/v1'/><feature var='http://www.google.com/xmpp/protocol/camera/v1'/><feature var='urn:xmpp:jingle:apps:rtp:1'/><feature var='urn:xmpp:jingle:apps:rtp:audio'/><feature var='urn:xmpp:jingle:apps:rtp:video'/><feature var='urn:xmpp:jingle:transports:raw-udp:1'/><feature var='urn:xmpp:jingle:transports:ice-udp:1'/><feature var='urn:xmpp:avatar:metadata'/><feature var='urn:xmpp:avatar:data'/><feature var='urn:xmpp:avatar:metadata+notify'/><feature var='http://jabber.org/protocol/mood'/><feature var='http://jabber.org/protocol/mood+notify'/><feature var='http://jabber.org/protocol/tune'/><feature var='http://jabber.org/protocol/tune+notify'/><feature var='http://jabber.org/protocol/nick'/><feature var='http://jabber.org/protocol/nick+notify'/><feature var='http://jabber.org/protocol/ibb'/></query></iq><iq type='result' id='14677192111048696231' to='localhost'><query xmlns='http://jabber.org/protocol/disco#info' node='http://pidgin.im/#camera-v1'><feature var='http://www.google.com/xmpp/protocol/camera/v1'/></query></iq>">>
+2016-11-22 10:10:08.818 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,999.9141192982847,1479780608817023}, Size=1030
+M=1029.9115504733406, I=0.844
+2016-11-22 10:10:08.818 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531869">>,result,<<>>,undefined,{jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},{<<"node">>,<<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>}],[{xmlel,<<"identity">>,[{<<"category">>,<<"client">>},{<<"type">>,<<"pc">>},{<<"name">>,<<"Pidgin">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:last">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:oob">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:time">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:version">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"jabber:x:conference">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/bytestreams">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/caps">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/chatstates">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/disco#info">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/disco#items">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/muc">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/muc#user">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/si">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/si/profile/file-transfer">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/xhtml-im">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:ping">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:attention:0">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:bob">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/session">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/voice/v1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/video/v1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/camera/v1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:audio">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:video">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:transports:raw-udp:1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:transports:ice-udp:1">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:avatar:metadata">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:avatar:data">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:avatar:metadata+notify">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/mood">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/mood+notify">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/tune">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/tune+notify">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/nick">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/nick+notify">>}],[]},{xmlel,<<"feature">>,[{<<"var">>,<<"http://jabber.org/protocol/ibb">>}],[]}]}],#{}}
+2016-11-22 10:10:08.818 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"purple61531869">>,result,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:08.820 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"purple61531869">>,result,<<>>,undefined,
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [{xmlel,<<"query">>,
+            [{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},
+             {<<"node">>,
+              <<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>}],
+            [{xmlel,<<"identity">>,
+                    [{<<"category">>,<<"client">>},
+                     {<<"type">>,<<"pc">>},
+                     {<<"name">>,<<"Pidgin">>}],
+                    []},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:last">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:oob">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:time">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:version">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"jabber:x:conference">>}],[]},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/bytestreams">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/caps">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/chatstates">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/disco#info">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/disco#items">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/muc">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/muc#user">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/si">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://jabber.org/protocol/si/profile/file-transfer">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/xhtml-im">>}],
+                    []},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:ping">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:attention:0">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:bob">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:1">>}],[]},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://www.google.com/xmpp/protocol/session">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://www.google.com/xmpp/protocol/voice/v1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://www.google.com/xmpp/protocol/video/v1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://www.google.com/xmpp/protocol/camera/v1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:audio">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:video">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:transports:raw-udp:1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:transports:ice-udp:1">>}],
+                    []},
+             {xml...
+2016-11-22 10:10:08.822 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"purple61531869">>,result,<<>>,undefined,
+    {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,
+         <<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>},
+    [{xmlel,<<"query">>,
+            [{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},
+             {<<"node">>,
+              <<"http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM=">>}],
+            [{xmlel,<<"identity">>,
+                    [{<<"category">>,<<"client">>},
+                     {<<"type">>,<<"pc">>},
+                     {<<"name">>,<<"Pidgin">>}],
+                    []},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:last">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:oob">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:time">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"jabber:iq:version">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"jabber:x:conference">>}],[]},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/bytestreams">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/caps">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/chatstates">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/disco#info">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/disco#items">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/muc">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/muc#user">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/si">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://jabber.org/protocol/si/profile/file-transfer">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"http://jabber.org/protocol/xhtml-im">>}],
+                    []},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:ping">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:attention:0">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:bob">>}],[]},
+             {xmlel,<<"feature">>,[{<<"var">>,<<"urn:xmpp:jingle:1">>}],[]},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://www.google.com/xmpp/protocol/session">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://www.google.com/xmpp/protocol/voice/v1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://www.google.com/xmpp/protocol/video/v1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,
+                      <<"http://www.google.com/xmpp/protocol/camera/v1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:audio">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:apps:rtp:video">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:transports:raw-udp:1">>}],
+                    []},
+             {xmlel,<<"feature">>,
+                    [{<<"var">>,<<"urn:xmpp:jingle:transports:ice-udp:1">>}],
+                    []},
+             {xmlel,<<"featu...
+2016-11-22 10:10:08.822 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"14677192111048696231">>,result,<<>>,undefined,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},{<<"node">>,<<"http://pidgin.im/#camera-v1">>}],[{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/camera/v1">>}],[]}]}],#{}}
+2016-11-22 10:10:08.823 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"14677192111048696231">>,result,<<>>,undefined,{jid,...},[...],...}
+2016-11-22 10:10:08.823 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"16582064169610622677">>,get,<<>>,undefined,undefined,[{disco_info,<<"http://pidgin.im/#video-v1">>,[],[],[]}],#{}}
+2016-11-22 10:10:08.823 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	to {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	packet {iq,<<"16582064169610622677">>,get,<<>>,undefined,undefined,[...],...}
+2016-11-22 10:10:08.823 [debug] <0.544.0>@ejabberd_sm:do_route:517 processing packet to full JID:
+{iq,<<"16582064169610622677">>,get,<<>>,undefined,undefined,
+    [#disco_info{node = <<"http://pidgin.im/#video-v1">>,identities = [],
+                 features = [],xdata = []}],
+    #{}}
+2016-11-22 10:10:08.823 [debug] <0.544.0>@ejabberd_sm:do_route:538 sending to process <0.544.0>:
+{iq,<<"16582064169610622677">>,get,<<>>,undefined,undefined,
+    [#disco_info{node = <<"http://pidgin.im/#video-v1">>,identities = [],
+                 features = [],xdata = []}],
+    #{}}
+2016-11-22 10:10:08.824 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='monkboy@localhost/17904378891235861903362' type='result' id='purple61531869'><query xmlns='http://jabber.org/protocol/disco#info' node='http://pidgin.im/#AcN1/PEN8nq7AHD+9jpxMV4U6YM='><identity category='client' type='pc' name='Pidgin'/><feature var='jabber:iq:last'/><feature var='jabber:iq:oob'/><feature var='urn:xmpp:time'/><feature var='jabber:iq:version'/><feature var='jabber:x:conference'/><feature var='http://jabber.org/protocol/bytestreams'/><feature var='http://jabber.org/protocol/caps'/><feature var='http://jabber.org/protocol/chatstates'/><feature var='http://jabber.org/protocol/disco#info'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/muc'/><feature var='http://jabber.org/protocol/muc#user'/><feature var='http://jabber.org/protocol/si'/><feature var='http://jabber.org/protocol/si/profile/file-transfer'/><feature var='http://jabber.org/protocol/xhtml-im'/><feature var='urn:xmpp:ping'/><feature var='urn:xmpp:attention:0'/><feature var='urn:xmpp:bob'/><feature var='urn:xmpp:jingle:1'/><feature var='http://www.google.com/xmpp/protocol/session'/><feature var='http://www.google.com/xmpp/protocol/voice/v1'/><feature var='http://www.google.com/xmpp/protocol/video/v1'/><feature var='http://www.google.com/xmpp/protocol/camera/v1'/><feature var='urn:xmpp:jingle:apps:rtp:1'/><feature var='urn:xmpp:jingle:apps:rtp:audio'/><feature var='urn:xmpp:jingle:apps:rtp:video'/><feature var='urn:xmpp:jingle:transports:raw-udp:1'/><feature var='urn:xmpp:jingle:transports:ice-udp:1'/><feature var='urn:xmpp:avatar:metadata'/><feature var='urn:xmpp:avatar:data'/><feature var='urn:xmpp:avatar:metadata+notify'/><feature var='http://jabber.org/protocol/mood'/><feature var='http://jabber.org/protocol/mood+notify'/><feature var='http://jabber.org/protocol/tune'/><feature var='http://jabber.org/protocol/tune+notify'/><feature var='http://jabber.org/protocol/nick'/><feature var='http://jabber.org/protocol/nick+notify'/><feature var='http://jabber.org/protocol/ibb'/></query></iq>">>
+2016-11-22 10:10:08.824 [debug] <0.544.0>@ejabberd_c2s:send_text:1628 Send XML on stream = <<"<iq to='monkboy@localhost/17904378891235861903362' from='localhost' type='get' id='16582064169610622677'><query node='http://pidgin.im/#video-v1' xmlns='http://jabber.org/protocol/disco#info'/></iq>">>
+2016-11-22 10:10:09.848 [debug] <0.543.0>@ejabberd_receiver:process_data:284 Received XML on stream = <<"<iq type='result' id='16582064169610622677' to='localhost'><query xmlns='http://jabber.org/protocol/disco#info' node='http://pidgin.im/#video-v1'><feature var='http://www.google.com/xmpp/protocol/video/v1'/></query></iq>">>
+2016-11-22 10:10:09.848 [debug] <0.543.0>@shaper:update:120 State: {maxrate,1000,999.4430255483142,1479780609848083}, Size=220
+M=219.87753383115634, I=0.673
+2016-11-22 10:10:09.848 [debug] <0.544.0>@ejabberd_router:do_route:383 route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"16582064169610622677">>,result,<<>>,undefined,{jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>},[{xmlel,<<"query">>,[{<<"xmlns">>,<<"http://jabber.org/protocol/disco#info">>},{<<"node">>,<<"http://pidgin.im/#video-v1">>}],[{xmlel,<<"feature">>,[{<<"var">>,<<"http://www.google.com/xmpp/protocol/video/v1">>}],[]}]}],#{}}
+2016-11-22 10:10:09.849 [debug] <0.544.0>@ejabberd_local:do_route:282 local route
+	from {jid,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>,<<"monkboy">>,<<"localhost">>,<<"17904378891235861903362">>}
+	to {jid,<<>>,<<"localhost">>,<<>>,<<>>,<<"localhost">>,<<>>}
+	packet {iq,<<"16582064169610622677">>,result,<<>>,undefined,{jid,...},[...],...}
+

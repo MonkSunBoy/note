@@ -11,3 +11,21 @@ SquashFS 是一个只读文件系统 [SquashFS}(https://zh.wikipedia.org/wiki/Sq
 
 ## config sddm
 [xinitrc](https://wiki.archlinux.org/index.php/Xinit#Autostart_X_at_login)
+
+## 字体
+
+安装常用的英文字体和中文字体，个人很喜欢adebe的source系列开源字体，安装:
+
+sudo pacman -S ttf-dejavu wqy-microhei
+sudo pacman -S adobe-source-code-pro-fonts \
+          adobe-source-sans-pro-fonts \
+          adobe-source-serif-pro-fonts \
+          adobe-source-han-sans-cn-fonts
+
+yaourt ttf-monaco
+
+## 输入法
+
+个人喜欢使用fcitx框架，在此框架下提供的中文输入法比较好用，这里只选择安装sogou输入法:
+
+sudo pacman -S fcitx fcitx-im fcitx-qt5 fcitx-configtool
